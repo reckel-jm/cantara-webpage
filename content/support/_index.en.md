@@ -11,6 +11,10 @@ Cantara is free Software and has been developed with a lot of patience and passi
 
 If you find any issues, have ideas or recommondations or want to report a bug, please [open an issue at the Cantara Github repository](https://github.com/reckel-jm/cantara/issues). I work completely via Github on the project, so that would be the best way to go. If you have no Github account and don't want to create one, ask a friend to do it for you.
 
+## Translate Cantara to an other language
+
+Currently, Cantara has been only translated to English and German. If you feel that you can add a language, plesae contact me!
+
 ## Recommend it
 
 The more people use Cantara, the better the program can get! Feel free to recommend Cantara via your available channels. 
