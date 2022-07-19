@@ -5,6 +5,9 @@ canonifyurls = true
 
 defaultContentLanguage = "en"
 
+[outputs]
+    home = [ "HTML", "RSS", "JSON"]
+
 [Languages]
     [Languages.en]
     title = 'Cantara Song'
@@ -14,3 +17,12 @@ defaultContentLanguage = "en"
     title = 'Cantara Liedpräsentation'
     weight = 2
     languageName = 'Deutsch'
+
+
+
+[[menu.shortcuts]]
+disableShortcutsTitle=true
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/reckel-jm/cantara"
+weight = 10
