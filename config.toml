@@ -1,5 +1,16 @@
 baseURL = 'https://reckel-jm.github.io/cantara-song/'
-languageCode = 'en-us'
 title = 'Cantara Song'
 theme = 'hugo-theme-learn'
 canonifyurls = true
+
+defaultContentLanguage = "en"
+
+[Languages]
+    [Languages.en]
+    title = 'Cantara Song'
+    weight = 1
+    languageName = 'English'
+    [Languages.de]
+    title = 'Cantara Liedpräsentation'
+    weight = 2
+    languageName = 'Deutsch'
