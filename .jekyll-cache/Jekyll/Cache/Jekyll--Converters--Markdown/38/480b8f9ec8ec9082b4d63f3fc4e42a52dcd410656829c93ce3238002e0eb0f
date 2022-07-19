@@ -1,0 +1,26 @@
+I"�<h2 id="contributeurs">Contributeurs</h2>
+
+<p>Merci à eux <i class="fas fa-heart"></i> de rendre le monde Open Source meilleur  !</p>
+
+<p>Et un grand merci à <a href="https://github.com/vjeantet">@vjeantet</a> pour son travail sur <a href="https://github.com/vjeantet/hugo-theme-docdock">docdock</a>, un fork de <em>hugo-theme-learn</em>. La v2.0.0 du thème est en grande partie inspirée de son travail.</p>
+
+<h2 id="packages-et-librairies">Packages et librairies</h2>
+<ul>
+  <li><a href="https://mermaid-js.github.io/">mermaid</a> - géneration de diagrames et graphiques à partir de texte similaire à Markdown</li>
+  <li><a href="http://fontawesome.io/">font awesome</a> - Le framework de polices iconiques</li>
+  <li><a href="https://jquery.com">jQuery</a> - La plus connue des librairies Javascript</li>
+  <li><a href="https://lunrjs.com">lunr</a> - Lunr fournit des fonctions de recherche sans service externe</li>
+  <li><a href="https://bevacqua.github.io/horsey/">horsey</a> - Autocomplétion de composants (utiliser pour les suggestions de recherche)</li>
+  <li><a href="https://zenorocha.github.io/clipboard.js">clipboard.js</a> - Copier le texte dans le presse-papier</li>
+  <li><a href="https://highlightjs.org">highlight.js</a> - Mise en valeur de syntaxes</li>
+  <li><a href="https://modernizr.com">modernizr</a> - Une boite à outil Javascript qui permet aux développeurs d’utiliser les dernières fonctionnalités de CSS et HTML5, même sur de vieux navigateurs.</li>
+</ul>
+
+<h2 id="outils">Outils</h2>
+
+<ul>
+  <li><a href="https://www.netlify.com">Netlify</a> - Déploiement continue et hébergement de cette documentation</li>
+  <li><a href="https://gohugo.io/">Hugo</a></li>
+</ul>
+
+:ET

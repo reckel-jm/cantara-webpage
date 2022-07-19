@@ -1,0 +1,80 @@
+<p>Choose which content to see across the page. Very handy for providing code
+snippets for multiple languages or providing configuration in different formats.</p>
+
+<h2 id="code-example">Code example</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```python
+print("Hello World!")
+```
+
+
+```R
+&gt; print("Hello World!")
+```
+
+
+```Bash
+echo "Hello World!"
+```
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span><span class="w"> </span><span class="n">print</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<pre><code class="language-Bash">echo "Hello World!"
+</code></pre>
+
+<p>Tab views with the same tabs that belong to the same group sychronize their selection:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span><span class="w"> </span><span class="n">print</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<pre><code class="language-Bash">echo "Hello World!"
+</code></pre>
+
+<h2 id="config-example">Config example</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```json
+{
+  "Hello": "World"
+}
+```
+
+
+```xml
+&lt;Hello&gt;World&lt;/Hello&gt;
+```
+
+
+```properties
+Hello = World
+```
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"Hello"</span><span class="p">:</span><span class="w"> </span><span class="s2">"World"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;Hello&gt;</span>World<span class="nt">&lt;/Hello&gt;</span>
+</code></pre></div></div>
+
+<div class="language-properties highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">Hello</span> <span class="p">=</span> <span class="s">World</span>
+</code></pre></div></div>
+
+<p>When using tab views with different content sets, make sure to use a common <code class="language-plaintext highlighter-rouge">groupId</code> for equal sets but distinct
+<code class="language-plaintext highlighter-rouge">groupId</code> for different sets. The <code class="language-plaintext highlighter-rouge">groupId</code> defaults to <code class="language-plaintext highlighter-rouge">'default'</code>.<br />
+<strong>Take this into account across the whole site!</strong><br />
+The tab selection is restored automatically based on the <code class="language-plaintext highlighter-rouge">groupId</code> and if it cannot find a tab item because it came
+ from the <code class="language-plaintext highlighter-rouge">'default'</code> group on a different page then all tabs will be empty at first.</p>
+
