@@ -2,3 +2,4 @@ baseURL = 'https://reckel-jm.github.io/cantara-song/'
 languageCode = 'en-us'
 title = 'Cantara Song'
 theme = 'hugo-theme-learn'
+canonifyurls = true
