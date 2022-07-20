@@ -8,6 +8,10 @@ weight: 2
 
 Installing Cantara is quite simple if you are using Windows or Linux. Here you will find a detailed description for your operating system.
 
+{{% notice note %}}
+For Support of the CCLI Songselect file format, please download the Version 2.3 Beta. [You can find the source code and binaries on Github.](https://github.com/reckel-jm/cantara/releases/tag/v2.2.3beta)
+{{% /notice %}}
+
 ## Windows
 
 The installation using windows is very easy. There is an installer which you can use and which will lead you through the process. After downloading, the installation should take **less than one minute**.

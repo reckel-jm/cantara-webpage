@@ -19,8 +19,10 @@ Later I have been able to lead the [best student group in the world](https://www
 {{<mermaid align="left">}}
 graph LR;
     A[Song Rep] -->|Collecting Songs| B(Song List)
-    B --> C{Song Selection}
-    C -->|Generate Presentation Data| D[Run Presentation]
+    B --> C(Song Selection)
+    C --> D{Generate Presentation Data}
+    D --> E[Run Presentation]
+    D --> F[Copy Lyrics to Clipboard]
 {{< /mermaid >}}
 
 Cantara takes the songs from *one particular folder* on the file system which is called the *song repository* (or briefly song repo). Every song is a simple text file which can be edited with a text editor of your choice. Cantara will recognize the song title from the name of the file (without the extension). So, for example. If you have a file like:
