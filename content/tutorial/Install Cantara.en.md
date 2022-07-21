@@ -32,10 +32,10 @@ Cantara can use the QT5 and GTK2 librarys for the graphical user interface. Due 
 
 For all Pacman-based distros, there exists a Pacman package at the Github Repository which contains the compiled binary for 64-Bit-Systems. For installing the package, simply enter the following command in the command line:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.2.1/cantara-2.2-1-x86_64.pkg.tar.zst
-    sudo pacman -U cantara-2.2-1-x86_64.pkg.tar.zst
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta-1-x86_64.pkg.tar.zst
+    sudo pacman -U cantara-2.2.3beta-1-x86_64.pkg.tar.zst
 
-Cantara is now installed and ready for use. If you lader want to uninstall it, you can use Pacman as well:
+Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
     sudo pacman -R cantara
 
@@ -51,7 +51,9 @@ Although I am the owner of the AUR package, it is **always** adviced to douplech
 
 ### Ubuntu/Flat-Based Distributions
 
-I am going to release a flatpack package soon. Untill that, you can follow the [generic instructions](#generic-installation-of-binarys) below.
+There is a DEB-Package for 2.3 Beta which works well with Ubuntu. You can [download it here](https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta.deb) and then open it with "Software Installation".
+
+In addition to that, I am going to release a flatpack package soon. Untill that, you can follow the [generic instructions](#generic-installation-of-binarys) below.
 
 ### Generic Installation of Binarys
 

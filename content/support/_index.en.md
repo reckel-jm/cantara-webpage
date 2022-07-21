@@ -2,7 +2,7 @@
 title: "Support"
 date: 2022-07-19T18:41:23+02:00
 draft: false
-weight: 5
+weight: 4
 ---
 
 Cantara is free Software and has been developed with a lot of patience and passion. If you like it, I would be greatful if you consider one of the things below. Thank you for using Cantara. It is my pleasure and honor!
