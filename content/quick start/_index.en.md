@@ -11,11 +11,11 @@ Starting with Cantara is **very easy** and can be done while following this thre
  2. Collect Songs
  3. Run and configure Cantara
 
-While a detailed explenation with download links can be fined in the [Tutorial Section]({{< ref "/tutorial/_index.en.md" >}}), you will find here some short advices.
+While a detailed explenation with download links can be found in the [Tutorial Section]({{< ref "/tutorial/_index.en.md" >}}), this page just contains some short advices.
 
 ## Download Cantara
 
-There exists several download links for different operation systems.
+There are several download links for different operation systems.
 
  * Go to the [Download and Installation Tutorial Section]({{< ref "/tutorial/Install Cantara.en.md" >}}) for further information.
  * Check out the [Releases Page on Github](https://github.com/reckel-jm/cantara/releases) for further options.

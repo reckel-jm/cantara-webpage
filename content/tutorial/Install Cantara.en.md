@@ -6,7 +6,7 @@ toc: true
 weight: 2
 ---
 
-Installing Cantara is quite simple if you are using Windows or Linux. Here you will find a detailed description for your operating system.
+Installing Cantara is quite simple if you are using Windows or Linux. It should also be no problem with Mac OS. Here you will find a detailed description for your operating system.
 
 {{% notice note %}}
 For Support of the CCLI Songselect file format, please download the Version 2.3 Beta. [You can find the source code and binaries on Github.](https://github.com/reckel-jm/cantara/releases/tag/v2.2.3beta)
@@ -83,6 +83,12 @@ Install `lazarus` and `lazbuild` from your local repository. If you prefer QT5, 
 
 If you prefer GTK2, change the option to `--ws=gtk2`. If done with no errors, you will find the executable binary `cantara` in the same folder.
 
-### Mac OS X
+## Mac OS
 
-Here, we unfortunately have a problem: There exists **no experience with Mac OS X** because the author of Cantara is simply not using it. However, due to the plattform-independancy of Cantara, it should be no problem to get Cantara to run. Install Lazarus first, download the source files and in best case, everything should work out of the box! Feel free to tell me more if you have gathered some experience.
+Thanks to Github's [setup-lazarus action](https://github.com/gcarreno/setup-lazarus), there are now also binarys for Mac OS X created by the Github Matrix virtual host. However I personally have **no experience with Mac OS X** because I don't use it by myself. Nethertheless: Due to Lazarus' plattform-independency, it should be no problem to run it. You can try the following steps:
+
+ 1. [Download the MacOS X binary archive (Zip-File)](https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta-macos-app.zip)
+ 2. Extract the zip-file on your local file system
+ 3. Run the `cantara.app` app bundle
+
+If you went through the steps, please tell me how it worked out! If these steps fail, you can also install the Lazarus IDE, open the project source code and compile cantara by yourself.

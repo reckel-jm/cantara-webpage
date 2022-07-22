@@ -9,7 +9,7 @@ chapter: true
 
 Welcome to this webpage!
 
-Cantara Song is a song presentation software which can be used for presenting songs in churches, small groups or caraoke parties. It supports various input formats and can create beautiful presentation slides or copies the lyrics into the clipboard so that they can easily shared via chat messengers like Telegram or WhatsApp.
+Cantara Song is a song presentation software which can be used for presenting songs in churches, small groups or karaoke parties. It supports various input formats and can create beautiful presentation slides or copies the lyrics into the clipboard so that they can easily shared via chat messengers like Telegram or WhatsApp.
 
 Cantara has the following advantages:
 
@@ -19,7 +19,7 @@ Cantara has the following advantages:
   * **Multi-Screen-Support**: Multi Screen is supported out of the box.
   * **Free and OpenSource**: No licence fees, no dependance on certain companies–Cantara is licensed under the [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) and can be used everywhere and as you want.
 
-The current version is 2.2.1. [You can easily download and install it for Linux and Windows](tutorial/install-cantara). Cantara is written with the programming language Pascal/Lazarus, therefore it is plattform-independent and can be compiled to almost every device. You can also compile Cantara by yourself. [Find more information here](tutorial/install-cantara/#generic-compilation).
+The current version is 2.2.1. [You can easily download and install it for Linux, Windows and Mac OS](tutorial/install-cantara). Cantara is written with the programming language Pascal/Lazarus, therefore it is plattform-independent and can be compiled to almost every device. You can also compile Cantara by yourself. [Find more information here](tutorial/install-cantara/#generic-compilation).
 
 ![Cantara Overview](/images/cantara-overview.jpg?width=900)
 ![Cantara Multiscreen](/images/cantara-multiscreen.jpg?width=900)
