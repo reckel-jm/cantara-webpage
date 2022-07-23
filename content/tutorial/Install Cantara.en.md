@@ -45,7 +45,7 @@ Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 
 #### Pre-Built Pacman Installation Package
 
-If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading installing the package, simply enter the following command in the command line:
+If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
 
     wget https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta-x86_64.pkg.tar.zst
     sudo pacman -U cantara-2.2.3beta-x86_64.pkg.tar.zst
@@ -73,6 +73,8 @@ Cantara is available at the Snap Store! You can follow the instructions on the [
 {{% notice warning %}}
 The snap package takes more then 100 MB of disk space (instead of 5-10 MB with the other options) and is slowlier when running due to it's compression on the system. Cantara is normally very leightweight and does not require any larger additional librarys or packages, however because of Snap's isolated runtime model, a lot of librarys like Qt will be shipped with the package at the moment. You might consider using an other option for installing Cantara until I found out how to improve the [snapcraft.yaml](https://github.com/reckel-jm/cantara/blob/master/snap/snapcraft.yaml). If you have any ideas how to make the package more leightweight without breaking Cantara, feel free to submit a pull request!
 {{% /notice %}}
+
+Snap will create a starter in the start menu. If you like to run Cantara via the command line, the command is `snap run cantara`.
 
 ### Generic Installation of Binarys
 
