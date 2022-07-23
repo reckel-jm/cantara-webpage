@@ -26,34 +26,53 @@ Cantara was developed by a Linux fan and enthuisiast. So, it is my pleasure to m
 Cantara can use the QT5 and GTK2 librarys for the graphical user interface. Due to compatibility issues, I have switched to QT5 for the binary packages which means that **if you are using a binary package of cantara, you will get a QT5 application**. If you prefer GTK2, please [compile cantara by yourself](#generic-compilation).
 {{% /notice %}}
 
-### Arch Linux/Manjaro/etc.
+### Arch Linux and Arch based distributions (Manjaro, Garuda, etc.)
 
-#### Pre-Compiled
+#### The Arch User Repository (AUR)
 
-For all Pacman-based distros, there exists a Pacman package at the Github Repository which contains the compiled binary for 64-Bit-Systems. For installing the package, simply enter the following command in the command line:
+The [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) contains package built information which allows you to build software packages automatically and install them on your local file system. This is the prefered way for installation of software outside of the official repositories. There are two Cantara package builds in the AUR: Use [cantara-bin](https://aur.archlinux.org/packages/cantara-bin) for a pre-compiled version of Cantara and [cantara](https://aur.archlinux.org/packages/cantara) if you would like the system to compile the package. Note that for the installation process of the **second option**, the compilers and librarys of Pascal and Lazarus have to get downloaded and installed which might require several hundred megabites of disk space. You can delete these tools after the compilation process has been done.
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta-1-x86_64.pkg.tar.zst
-    sudo pacman -U cantara-2.2.3beta-1-x86_64.pkg.tar.zst
+There are many ways how to install a package from the AUR. Most people might use a helper like `yay`. Just install **one of the packages**:
+
+    yay cantara-bin # fast and compact installation of pre-compiled binary
+    yay cantara # downloads source code and compile by yourself
+
+{{% notice note %}}
+A big advantage of using a helper like yay is that it will also keep the packages up-to-date! Whenever a new version of Cantara gets released, you should be able to update it via `sudo yay -Syu`
+{{% /notice %}}
+
+Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
+
+#### Pre-Built Pacman Installation Package
+
+If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading installing the package, simply enter the following command in the command line:
+
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta-x86_64.pkg.tar.zst
+    sudo pacman -U cantara-2.2.3beta-x86_64.pkg.tar.zst
 
 Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
     sudo pacman -R cantara
 
-#### The Arch User Repository (AUR)
+### Ubuntu/Debian based Linux distributions
 
-If you don't want to use the precompiled package, you can also generate it by yourself while using the PKGBUILD-File in the [Arch User Repository](https://aur.archlinux.org/packages/cantara). Note that for the installation process, the compilers and librarys of Pascal and Lazarus get installed. This can take up to 1 GB of disk space. You can delete these tools after the compilation process has been done. There are many ways how to install a package from the AUR. Most people might use a helper like yay:
+There is a DEB-Package for 2.3 Beta which works well with Ubuntu. You can [download it here](https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta.deb) and then open it with "Software Installation" or use `dpkg` in the command line:
 
-    yay cantara
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta.deb
+    sudo dpkg -i cantara-2.2.3beta.deb
+
+If you would like to remove Cantara at a later point, you can use `sudo apt-get remove cantara`. In addition to that, you can get Cantara as a [Snap](#snap) via the Ubuntu Software Store.
+
+### Snap
+
+Cantara is available at the Snap Store! You can follow the instructions on the [Cantara store page](https://snapcraft.io/cantara) to find out how to install it on your local system or - if snapd is already running - install it via the command line.
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/cantara)
+
+    sudo snap install --edge cantara
 
 {{% notice warning %}}
-Although I am the owner of the AUR package, it is **always** adviced to douplecheck the PKGBUILD-file before making the package.
+The snap package takes more then 100 MB of disk space (instead of 5-10 MB with the other options) and is slowlier when running due to it's compression on the system. Cantara is normally very leightweight and does not require any larger additional librarys or packages, however because of Snap's isolated runtime model, a lot of librarys like Qt will be shipped with the package at the moment. You might consider using an other option for installing Cantara until I found out how to improve the [snapcraft.yaml](https://github.com/reckel-jm/cantara/blob/master/snap/snapcraft.yaml). If you have any ideas how to make the package more leightweight without breaking Cantara, feel free to submit a pull request!
 {{% /notice %}}
-
-### Ubuntu/Flat-Based Distributions
-
-There is a DEB-Package for 2.3 Beta which works well with Ubuntu. You can [download it here](https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta.deb) and then open it with "Software Installation".
-
-In addition to that, I am going to release a flatpack package soon. Untill that, you can follow the [generic instructions](#generic-installation-of-binarys) below.
 
 ### Generic Installation of Binarys
 
