@@ -1,4 +1,4 @@
-baseURL = 'https://reckel-jm.github.io/cantara-song/'
+baseURL = 'www.cantara.app'
 title = 'Cantara Song'
 theme = 'hugo-theme-learn'
 canonifyurls = true
