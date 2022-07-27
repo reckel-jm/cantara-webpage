@@ -1,4 +1,4 @@
-baseURL = 'www.cantara.app'
+baseURL = 'https://www.cantara.app'
 title = 'Cantara Song'
 theme = 'hugo-theme-learn'
 canonifyurls = true
