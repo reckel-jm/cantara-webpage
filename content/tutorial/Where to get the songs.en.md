@@ -3,7 +3,7 @@ title: "Where to get the songs"
 date: 2022-07-19T15:37:14+02:00
 draft: false
 toc: true
-weight: 4
+weight: 5
 ---
 
 Getting the songs might be one of the most important questions when using a song presentation software. Cantara supports two different song formats. One has the file ending .song and is very simple for it just contains the lyrics in the order as they should be presented. The other format is used by [CCLI Songselect](https://songselect.ccli.com/) and has the file endings .txt or .ccli. CCLI is a commercial database where you can download a lot of Christian songs for the use in churches or Christian groups.

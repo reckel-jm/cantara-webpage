@@ -5,11 +5,11 @@ draft: false
 weight: 4
 ---
 
-Cantara is free Software and has been developed with a lot of patience and passion. If you like it, I would be greatful if you consider one of the things below. Thank you for using Cantara. It is my pleasure and honor!
+Cantara is free Software and has been developed with a lot of patience and passion. If you like it, I would be grateful if you consider one of the things below. Thank you for using Cantara. It is my pleasure and honor!
 
 ## Give feedback, recommondations and bug reports
 
-If you find any issues, have ideas or recommondations or want to report a bug, please [open an issue at the Cantara Github repository](https://github.com/reckel-jm/cantara/issues). I work completely via Github on the project, so that would be the best way to go. If you have no Github account and don't want to create one, ask a friend to do it for you.
+If you find any issues, have ideas or recommendations or want to report a bug, please [open an issue at the Cantara Github repository](https://github.com/reckel-jm/cantara/issues). I work completely via Github on the project, so that would be the best way to go. If you have no Github account and don't want to create one, ask a friend to do it for you.
 
 ## Translate Cantara to an other language
 
