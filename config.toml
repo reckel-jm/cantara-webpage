@@ -1,5 +1,5 @@
 baseURL = 'https://www.cantara.app'
-title = 'Cantara Song'
+title = 'Cantara'
 theme = 'hugo-theme-learn'
 canonifyurls = true
 
@@ -10,19 +10,23 @@ defaultContentLanguage = "en"
 
 [Languages]
     [Languages.en]
-    title = 'Cantara Song'
+    title = 'Cantara'
     weight = 1
     languageName = 'English'
     [Languages.de]
-    title = 'Cantara Liedpräsentation'
+    title = 'Cantara'
     weight = 2
     languageName = 'Deutsch'
 
 
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-github'></i> Github Repository"
+  identifier = "gh"
+  url = "https://github.com/reckel-jm/cantara"
+  weight = 10
 
-[[menu.shortcuts]]
-disableShortcutsTitle=true
-name = "<i class='fab fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/reckel-jm/cantara"
-weight = 10
+[[Languages.en.menu.shortcuts]]
+    name = "<i class='fas fa-bookmark'></i> Imprint & Data Privacy"
+    identifier = "imprint"
+    url = "/imprint"
+    weight = 30

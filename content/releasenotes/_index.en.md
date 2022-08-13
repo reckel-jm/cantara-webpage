@@ -1,8 +1,8 @@
 ---
-title: "Releasenotes"
+title: "Release Notes"
 date: 2022-08-02T16:34:40+02:00
 draft: true
-weight: 5
+weight: 2
 
 ---
 

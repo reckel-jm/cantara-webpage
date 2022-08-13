@@ -1,11 +1,11 @@
 ---
-title: "Cantara Song"
+title: "Cantara"
 date: 2022-07-18T22:27:39+02:00
 draft: false
 chapter: true
 ---
 
-# Cantara Song
+# Cantara
 
 Welcome to this webpage!
 
