@@ -1,7 +1,7 @@
 ---
 title: "Release Notes"
 date: 2022-08-02T16:34:40+02:00
-draft: true
+draft: false
 weight: 2
 
 ---
@@ -11,6 +11,19 @@ This page contains information about the changes in different versions (releases
 ---
 
 ## Releases
+
+### Version 2.3.1 (2022-08-12)
+
+This is a minor release and follow up on version 2.3
+
+#### Improvements
+
+- Version 2.3.1 brings support for background images. These can be adjusted and made transparent (towards the background color) or brighter.
+
+#### Bug Fixes
+
+- fix of spell mistake in CCLI license tag. It is now `ccli-licensenumber`
+- complete German translation
 
 ### Version 2.3 (2022-08-02)
 
