@@ -13,7 +13,7 @@ Cantara allows you to fetch and display meta data from the songs. Depending on t
 Following data will be collected from each CCLI songselect lyrics file:
 
 * `author`: The name(s) of all author(s) separated by a '|'.
-* `ccli-licencenumber`: The number of the CCLI license which is dependent on the user account (not on the song)
+* `ccli-licensenumber`: The number of the CCLI license which is dependent on the user account (not on the song)
 * `ccli-songnumber`: The CCLI number on the song which is dependent on the song.
 
 ## Song format
@@ -42,11 +42,11 @@ In the settings dialog, you can enable meta data for each song. In the *Meta Dat
 
 For example, the following syntax:
 
-    {%ccli-licencenumber%}Song Source: CCLI {ccli-licencenumber}
+    {%ccli-licensenumber%}Song Source: CCLI {ccli-licensenumber}
     {%author%}Author: {author}
 
 Would generate for the above `Amazing Grace.song`:
 
     Author: John Newton
 
-because `author` exists but `ccli-licencenumber` does not.
+because `author` exists but `ccli-licensenumber` does not.
