@@ -20,7 +20,7 @@ Cantara 使用將翻譯的語言字符串存儲在一種二進位語言的語言
     `cantara --lang=<language code>` 
 
 
-6. 若翻譯運行良好，請在 GitHub 上發起一個Pull request，以便其他人也可以使用您的翻譯。
+6. 若翻譯運行良好，請在 GitHub 上發起一個 Pull request，以便其他人也可以使用您的翻譯。
 
 ## 目前翻譯狀況
 
