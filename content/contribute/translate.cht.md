@@ -14,7 +14,7 @@ Cantara 使用將翻譯的語言字符串存儲在一種二進位語言的語言
 1. 下載 [cantara.pot](https://github.com/reckel-jm/cantara/blob/master/locals/cantara.pot) 並使用合適的編輯器打開。
 2. 將字符串翻譯成所需的目標語言。
 3. 將翻譯後的內容導出為 `.mo`文件 **但請保留翻譯的 `.po` 文件！**
-4. 複製 `language.mo` 文件至 `<cantara-dir>/languages/language/cantara.mo` （將 `language` 替換為目標語言的短代碼，如德文 *de* 、英文 *en* 、中文 *zh* 等）。
+4. 複製 `language.mo` 文件至 `<cantara-dir>/languages/language/cantara.mo` （將 `language` 替換為目標語言的短代碼，如德文 *de*、英文 *en*、中文 *zh* 等）。
 5. 以 `--lang` 啟動項運行 Cantara 以測試您的翻譯。
 
     `cantara --lang=<language code>` 
