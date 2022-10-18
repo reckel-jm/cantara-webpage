@@ -8,35 +8,33 @@ weight: 1
 
 ## 背景故事
 
-在我上高中的時候，我成為了一個青年團契的領導。在進行我們的活動時，我們喜歡以歌唱開始。然而我們遇到了一些問題：可用的歌曲書籍數量不夠，其內容也未必能獲得我們的青睞。
+在我上高中的時候，我成為了一個青年團契的領導。在進行我們的活動時，我們喜歡以歌唱開始。然而我們遇到了一些問題：我們往往沒有足夠的讚美歌曲書籍可以使用，其內容也未必與我們想要唱的歌曲完全匹配。在那時我嘗試尋找一些歌曲展示程式，但很快便以失望告終：大部分的程式要麼是商業化程式，要么對於我們的非常簡單的基礎功能需求來說過於臃腫複雜：參加敬拜的人應該能夠自發地選擇想要唱的歌曲，而目標程式可以展示這些歌曲。
 
-At that time I was looking for an available song presentation program and became disappointed quickly. Most of the existing programs were either commercial, very complicated or simply an "overkill" for the basically quite simple purpose: People should be able to (spontaneously) choosing songs, the program should then display them.
+在這時我決定進行 Cantara 應用程式的開發。這個名字來自拉丁文詞彙 「cantare」 （吟唱），但是這個程式不是真的會唱歌，而是像一個程式一樣工作。選擇這個名稱的另一個原因是那時我在教堂裡擔任管風琴手的職位，管風琴手的德文是「Kantor」，與拉丁文「cantare」同源，聽起來也很相似。
 
-At that time, I decided to start the development of Cantara. The name is coming from the Latin "cantare" (to sing) but more artificial then real. An other reason for choosing the name was that at the same time, I was becoming an organ player in church –and the German name for that position is "Kantor" which sounds quite similar.
+後來我領導了 [世界上最棒的學生組織](https://www.smd-chemnitz.de) 😃，在擔任這個職位時，這個程式慢慢的更新了，增添了例如多熒幕顯示支持、直接將歌詞文本導出到剪貼板等等新功能，使其可以在沒有投影儀的小團體中使用。Cantara 的開發將會繼續，希望它能成長為我們敬拜偉大天父所用的一個小工具！
 
-Later I have been able to lead the [best student group in the world](https://www.smd-chemnitz.de) 😃 and while doing so, the program slowly was growing and updated with new futures like multi-screen-support and the opportunity to export song texts directly to the clipboard so that it can be used in small groups without beamer projection possibility. Cantara's development will continue and I hope that it will be a small tool to praise and worship our great heavenly father!
-
-## The Approach
+## 工作流程
 
 {{<mermaid align="left">}}
 graph LR;
-    A[Song Rep] -->|Collecting Songs| B(Song List)
-    B --> C(Song Selection)
-    C --> D{Generate Presentation Data}
-    D --> E[Run Presentation]
-    D --> F[Copy Lyrics to Clipboard]
+    A[曲庫] -->|收集歌曲| B(歌曲列表)
+    B --> C(選擇歌曲)
+    C --> D{生成展示數據}
+    D --> E[運行展示]
+    D --> F[複製歌詞到剪貼板]
 {{< /mermaid >}}
 
-Cantara takes the songs from *one particular folder* on the file system which is called the *song repository* (or briefly song repo). Every song is a simple text file which can be edited with a text editor of your choice. Cantara will recognize the song title from the name of the file (without the extension). So, for example. If you have a file like:
+Cantara 從文件系統中 *一個特定資料夾* 中獲取歌曲，此文件夾被稱為 *曲庫* 。每首歌曲都是一個簡單的文本文檔，可以用您喜歡的任何文本編輯器進行編輯。Cantara 將從不包含文件擴展名的文件名稱中識別歌曲標題。所以例如您有這樣一首歌：
 
     Amazing Grace.song
 
-Cantara will recognize it as "Amazing Grace" written in the song format (for formats see the next section).
+Cantara 將會識別名為以 song 格式寫成的「Amazing Grace」歌曲（關於 song 格式，請參考下節）。
 
-{{% notice tip %}}
-The song repository dictionary can be shared and synced easily via cloud services like NextCloud or Git. In that way you can distribute songs within your group or organization.
+{{% notice 提示 %}}
+曲庫目錄可以便捷的通過如 NextCloud 或 Git 一類的雲端服務進行分發與同步。如此您可以將您的歌曲發放給整個小組或者組織。
 {{% /notice %}}
 
-{{% notice warning %}}
-The developers of Cantara are not responsible for copyright issues which come along with the public use and distributions of song lyrics. Make sure that you obtain the rights for using the song lyrics! In Germany, religious gatherings with free admission enjoy higher copyright freedom than commercial events. However, please make sure with your organization that no legal problems arise.
+{{% notice 警告 %}}
+Cantara 的開發者不對隨著歌詞的公開使用和分發而出現的版權問題負責。確保您已經獲得了使用歌曲歌詞的權利！在德意志聯邦共和國，宗教活動逼商業活動享有更多的版權自由。但是請確保您的組織在使用過程中不會出現任何法律問題。
 {{% /notice %}}
