@@ -12,6 +12,15 @@ This page contains information about the changes in different versions (releases
 
 ## Releases
 
+### Version 2.3.2 (2022-11-10)
+
+This is a minor release which brings two small but useful improvements:
+
+* Completion of traditional Chinese translation
+* readiness for Flatpak
+
+Check the corresponding [GitHub page](https://github.com/reckel-jm/cantara/releases/tag/v2.3.2) for details.
+
 ### Version 2.3.1 (2022-08-12)
 
 This is a minor release and follow up on version 2.3

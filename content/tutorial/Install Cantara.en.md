@@ -43,8 +43,8 @@ Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 
 If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.1/cantara-2.3.1-x86_64.pkg.tar.zst
-    sudo pacman -U cantara-2.3.1-x86_64.pkg.tar.zst
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.2/cantara-2.3.2-1-x86_64.pkg.tar.zst
+    sudo pacman -U cantara-2.3.2-1-x86_64.pkg.tar.zst
 
 Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
@@ -81,8 +81,8 @@ You can also install different versions of Cantara at the same time and even ins
 
 Download the Zip-File from the Github Repository, extract it and run `make install`:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.1/cantara-2.3.1-x86_64_bin.zip
-    tar -zxvf cantara-2.3.1-x86_64_bin.zip
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.2/cantara-2.3.2-linux-x86_64_bin.zip
+    tar -zxvf cantara-2.3.2-linux-x86_64_bin.zip
 
 This will install Cantara globally on your system. You could also run Cantara directly from the dictionary without installing it. If you later want to uninstall a global installed Cantara, run the following commands:
 

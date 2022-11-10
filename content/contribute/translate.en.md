@@ -1,6 +1,7 @@
 ---
 title: "Translate"
 date: 2022-08-10T15:11:10+02:00
+weight: 2
 ---
 
 Cantara can be easily translated to an other language. While doing so, you will help to spread the use of the software all over the world, so that also people who don't speak English have access to Cantara.
@@ -28,6 +29,6 @@ Currently, Cantara is translated to the following languages:
 
 | Language | Completeness |
 |----------|--------------|
-| English  | 100 %        |
-| German   | 100 %        |
-| Chinese  | early state  |
+| English               | 100 %        |
+| German                | 100 %        |
+| Chinese (traditional) | 100 %        |
