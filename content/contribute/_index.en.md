@@ -25,5 +25,6 @@ Although I am still a "poor" student 😃, I am wealthy enough to not need any d
 
 * [OpenDoors](https://www.opendoors.de/): A Christian organization helping persecuted Christians all over the world.
 * [Missioneswerk Werner Heukelbach](https://www.heukelbach.org/): A missionary organization for sharing the gospel in Germany.
+* [Support Ukraine](https://savelife.in.ua/en/) by donating to NGOs, the Red Cross or the Ukrainian military and help the country to preserve its freedom and existence!
 
 Thank you for your help!

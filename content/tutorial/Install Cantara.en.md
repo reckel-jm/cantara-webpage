@@ -77,6 +77,16 @@ Snap will create a starter in the start menu. If you like to run Cantara via the
 You can also install different versions of Cantara at the same time and even install Cantara as a classical package and a snap together. Check the [Snap Documentation](https://snapcraft.io/docs/parallel-installs) for further details.
 {{% /notice %}}
 
+### Flatpak/Flathub
+
+Cantara has been packaged as a Flatpak as well and can be installed and updated from [flathub.org](https://flathub.org/apps/details/app.cantara.Cantara). This requires an installed flatpak on your operation system. Some distribution like Fedora have this already out of the box, in other distributions like Arch Linux, you need to install it manually.
+
+Installing a flatpak from flathub can be done via a graphical software management tool, for example Gnome Software or KDE Discover, or via the command line:
+
+	flatpak install app.cantara.Cantara
+
+Depending on the flats you have already installed, flatpak might download several houndreds of megabytes for the required KDE/Qt-runtimes. That being said, although the actual Cantara flat is less then 4 MB installing Cantara via flatpak is for sure not the most disk space friendly way.
+
 ### Generic Installation of Binaries
 
 Download the Zip-File from the Github Repository, extract it and run `make install`:
