@@ -12,7 +12,7 @@ Installing Cantara is quite simple if you are using Windows or Linux. It should 
 
 The installation using windows is very easy. There is an installer which you can use and which will lead you through the process. After downloading, the installation should take **less than one minute**.
 
-Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.3.1/cantara-2.3.1_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
+Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
 
 ## Linux
 
@@ -43,8 +43,8 @@ Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 
 If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.2/cantara-2.3.2-1-x86_64.pkg.tar.zst
-    sudo pacman -U cantara-2.3.2-1-x86_64.pkg.tar.zst
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0-1-x86_64.pkg.tar.zst
+    sudo pacman -U cantara-2.4.0-1-x86_64.pkg.tar.zst
 
 Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
@@ -91,8 +91,9 @@ Depending on the flats you have already installed, flatpak might download severa
 
 Download the Zip-File from the Github Repository, extract it and run `make install`:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.3.2/cantara-2.3.2-linux-x86_64_bin.zip
-    tar -zxvf cantara-2.3.2-linux-x86_64_bin.zip
+    wget https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0-linux-x86_64_bin.zip
+    tar -zxvf cantara-2.4.0-linux-x86_64_bin.zip
+    sh install.sh
 
 This will install Cantara globally on your system. You could also run Cantara directly from the dictionary without installing it. If you later want to uninstall a global installed Cantara, run the following commands:
 
@@ -105,7 +106,7 @@ This will install Cantara globally on your system. You could also run Cantara di
 
 Install `lazarus` and `lazbuild` from your local repository. If you prefer QT5, you could also install `lazarus-qt` instead of lazarus if the distribution provides a certain package. After you have done that, the compilation is quite easy: Download the source code, extract it and run lazbuild with the appropriate options.
 
-    wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.3.1.tar.gz
+    wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.4.0.tar.gz
     tar -zxvf v2.3.tar.gz
     cd v2.3
     make
@@ -116,7 +117,7 @@ If you prefer GTK2, change the option to `--ws=gtk2` in the makefile. If done wi
 
 Thanks to Github's [setup-lazarus action](https://github.com/gcarreno/setup-lazarus), there are now also binarys for Mac OS X created by the Github Matrix virtual host. However I personally have **no experience with Mac OS X** because I don't use it by myself. Nethertheless: Due to Lazarus' plattform-independency, it should be no problem to run it. You can try the following steps:
 
-1. [Download the MacOS X binary archive from the last artifact(Zip-File)](https://github.com/reckel-jm/cantara/suites/7807632186/artifacts/329514795).
+1. [Download the MacOS X binary archive from the last artifact(Zip-File)](https://github.com/reckel-jm/cantara/suites/10219630045/artifacts/500741790).
 2. Extract the zip file and run the .app-bundle.
 
 If you went through the steps, please tell me how it worked out! If these steps fail, you can also install the Lazarus IDE, open the project source code and compile Cantara by yourself.

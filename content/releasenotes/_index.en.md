@@ -12,6 +12,22 @@ This page contains information about the changes in different versions (releases
 
 ## Releases
 
+### Version 2.4.0 (2023-01-06)
+
+Version 2.4 is finally there! Beside new features, it also brings a lot of bug fixes. See the list below for details.
+
+#### Improvements/Enhancements
+
+* A new editor has been implemented which allows editing of the songs, converting CCLI songs into the song format, creating new songs, archiving them and cloning them (e.g. for different versions).
+* A welcome assistant will guide new users after the first start of Cantara to setup and understand the program.
+* Cantara can automatically break long slides into two pages if configured in the settings.
+* The newly implemented SongTeX file format allows to export songs slides with the song lyrics and the order.
+
+#### Bug Fixes
+
+- Floating point errors when no background picture was selected
+- Loading the slides took a long time if a background was selected
+
 ### Version 2.3.2 (2022-11-10)
 
 This is a minor release which brings two small but useful improvements:
