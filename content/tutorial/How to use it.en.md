@@ -44,4 +44,7 @@ If you are running other programs like Libreoffice Impress or MS PowerPoint in p
 
 ## Save and Load Song Selections
 
-You can save and load song selections into Cantara to share it within the organization or for preparing an event. In order to be able to load a song selection, the songs have to be available in the local song repository as well.
+You can save and load song selections into Cantara to share it within the organization or for preparing an event. While doing so, you have two options:
+
+1. The **songtex**-format contains the song names **and** the song file with its content. That means, if you export the songselection to a songtex-file, the receiver don't need to have the songs in his song repository. While importing the songtex-file, Cantara checks whether the file already exists in the repository, and, if not, adds it.
+2. The legacy export/import function imports only the titles, that means, the receiver needs to have the songs in his song repository.

@@ -32,3 +32,5 @@ Currently, Cantara is translated to the following languages:
 | English               | 100 %        |
 | German                | 100 %        |
 | Chinese (traditional) | 100 %        |
+| Italian               | 100 %        |
+| Spanish               | 100 %        |

@@ -26,6 +26,8 @@ Cantara can use the QT5 and GTK2 librarys for the graphical user interface. Due 
 
 #### The Arch User Repository (AUR)
 
+[![cantara](https://img.shields.io/aur/version/cantara?color=1793d1&label=cantara&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/cantara/)[![cantara-bin](https://img.shields.io/aur/version/cantara-bin?color=1793d1&label=cantara-bin&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/cantara-bin/)
+
 The [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) contains package built information which allows you to build software packages automatically and install them on your local file system. This is the prefered way for installation of software outside of the official repositories. There are two Cantara package builds in the AUR: Use [cantara-bin](https://aur.archlinux.org/packages/cantara-bin) for a pre-compiled version of Cantara and [cantara](https://aur.archlinux.org/packages/cantara) if you would like the system to compile the package. Note that for the installation process of the **second option**, the compilers and libraries of Pascal and Lazarus have to get downloaded and installed which might require several hundred megabytes of disk space. You can delete these tools after the compilation process has been completed.
 
 There are many ways how to install a package from the AUR. Most people might use a helper like `yay`. Just install **one of the packages**:
@@ -107,7 +109,7 @@ This will install Cantara globally on your system. You could also run Cantara di
 Install `lazarus` and `lazbuild` from your local repository. If you prefer QT5, you could also install `lazarus-qt` instead of lazarus if the distribution provides a certain package. After you have done that, the compilation is quite easy: Download the source code, extract it and run lazbuild with the appropriate options.
 
     wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.4.0.tar.gz
-    tar -zxvf v2.3.tar.gz
+    tar -zxvf v2.4.0.tar.gz
     cd v2.3
     make
 
