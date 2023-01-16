@@ -35,6 +35,10 @@ Cantara will recognize it as "Amazing Grace" written in the song format (for for
 The song repository dictionary can be shared and synced easily via cloud services like NextCloud or Git. In that way you can distribute songs within your group or organization.
 {{% /notice %}}
 
+{{% notice tip %}}
+Since version 2.4.0, Cantara offers a built-in editor which you can use to edit the songs and convert CCLI songs to the Cantara song format. Notice that the songs remain single text files and therefore can still be edited with any text editor.
+{{% /notice %}}
+
 {{% notice warning %}}
 The developers of Cantara are not responsible for copyright issues which come along with the public use and distributions of song lyrics. Make sure that you obtain the rights for using the song lyrics! In Germany, religious gatherings with free admission enjoy higher copyright freedom than commercial events. However, please make sure with your organization that no legal problems arise.
 {{% /notice %}}
