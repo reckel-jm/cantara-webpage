@@ -12,6 +12,18 @@ This page contains information about the changes in different versions (releases
 
 ## Releases
 
+### Version 2.4.1 (2023-01-30) Italian and Spanish translation
+
+The version 2.4.1. adds Italian and Spanish translation to Cantara. Despite that, there is no additional functionality compared to Version 2.4.0 which means that if you are not using one of the languages, you don't necessarily need to update to this version.
+
+**Thank you to the translators!**
+
+
+* The Italian translation has been provided by [@albanobattistella](https://github.com/albanobattistella)
+* The Spanish translation has been provided by [@haggen88](https://github.com/haggen88)
+
+Thank you for the effort!
+
 ### Version 2.4.0 (2023-01-06)
 
 Version 2.4 is finally there! Beside new features, it also brings a lot of bug fixes. See the list below for details.
