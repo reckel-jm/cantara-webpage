@@ -8,12 +8,12 @@ weight: 3
 
 ## First Steps
 
-After the installation, simply open Cantara with your start menu or the `cantara` command. You will then be asked to choose a directory for the song repository.
-![The English Cantara Settings](/images/cantara-settings-en.png)
+After the installation, simply open Cantara with your start menu or the `cantara` command. You will then see the **welcome assistent** which helps you to go through the configuration of Cantara.
+![The English Cantara Settings](/images/cantara-welcome-assistent-step-1.png)
 
-Here you should choose a song repository directory where you all the song lyrics files are stored. If you have none yet, you can use the three points ... at the right size of the edit field to open a folder browser. There you can create or open an appropriate folder and save it as your repository path.
+Here you should choose a song repository directory where you all the song lyrics files are stored. If you have none yet, you can create an empty new folder and select it as your song repository. The assistent will suggest you to add "Amazing Grace" as an example song which you can use to understand how the program works.
 
-You can also adjust the font settings, the text color or the background color. The option *Spoiler next Slide* will show the lyrics of the next song part in smaller font size under the current part.
+After you have finished the welcome assistent, you should also adjust the font settings, the text color or the background color according to your wishes. You can do that in the **Settings** (Edit -> Settings). The option *Spoiler next Slide* will show the lyrics of the next song part in smaller font size under the current part.
 
 Beside that, you can configure how the **Meta Data** of songs should be displayed. See more details in the section Meta Data.
 

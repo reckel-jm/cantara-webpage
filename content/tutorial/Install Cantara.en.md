@@ -12,7 +12,7 @@ Installing Cantara is quite simple if you are using Windows or Linux. It should 
 
 The installation using windows is very easy. There is an installer which you can use and which will lead you through the process. After downloading, the installation should take **less than one minute**.
 
-Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
+Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.4.1/cantara-2.4.1_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
 
 ## Linux
 
@@ -32,8 +32,10 @@ The [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repo
 
 There are many ways how to install a package from the AUR. Most people might use a helper like `yay`. Just install **one of the packages**:
 
-    yay cantara-bin # fast and compact installation of pre-compiled binary
-    yay cantara # downloads source code and compile by yourself
+```bash
+yay cantara-bin # fast and compact installation of pre-compiled binary
+yay cantara # downloads source code and compile by yourself
+```
 
 {{% notice note %}}
 A big advantage of using a helper like yay is that it will also keep the packages up-to-date! Whenever a new version of Cantara gets released, you should be able to update it via `sudo yay -Syu`
@@ -45,8 +47,10 @@ Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 
 If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0-1-x86_64.pkg.tar.zst
-    sudo pacman -U cantara-2.4.0-1-x86_64.pkg.tar.zst
+```bash
+wget https://github.com/reckel-jm/cantara/releases/download/v2.4.1/cantara-2.4.1-1-x86_64.pkg.tar.zst
+sudo pacman -U cantara-2.4.1-1-x86_64.pkg.tar.zst
+```
 
 Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
@@ -60,6 +64,10 @@ There is a DEB-Package for 2.3 Beta which works well with Ubuntu. You can [downl
     sudo dpkg -i cantara-2.3.deb
 
 If you would like to remove Cantara at a later point, you can use `sudo apt-get remove cantara`. In addition to that, you can get Cantara as a [Snap](#snap) via the Ubuntu Software Store.
+
+{{% notice warning %}}
+This is not the latest version at the moment. Please wait till the latest versios been deployed as a Debian package or use snap in the meantime.
+{{% /notice %}}
 
 ### Snap
 
@@ -91,7 +99,7 @@ Depending on the flats you have already installed, flatpak might download severa
 
 ### Generic Installation of Binaries
 
-Download the Zip-File from the Github Repository, extract it and run `make install`:
+As an other distribution-independant way of using Cantara, you can manually download and install the binaries. Please be aware that Cantara needs the libqt5pas library which is normally resolved by the package dependancy management of your distribution's package manager. However, if you don't use the package manager for installation, you need to install libqt5pas manually. Afterwards, download the Zip-File from the Github Repository, extract it and run `make install`:
 
     wget https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0-linux-x86_64_bin.zip
     tar -zxvf cantara-2.4.0-linux-x86_64_bin.zip
