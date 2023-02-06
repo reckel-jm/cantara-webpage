@@ -10,7 +10,23 @@ Installing Cantara is quite simple if you are using Windows or Linux. It should 
 
 ## Windows
 
-The installation using windows is very easy. There is an installer which you can use and which will lead you through the process. After downloading, the installation should take **less than one minute**.
+Installation on Windows is very easy and done in just one minute. You can either use the Windows package manager [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) or download and run the installer manually.
+
+### Using winget (Windows 10 and Windows 11)
+
+If you are running one of the modern versions of Windows (Windows 10 1709 or later), you can use [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) to install Cantara safely and keep it up to date. Simply open a Windows Powershell and run the following command:
+
+```Powershell
+winget install cantara
+```
+
+Winget will download the installer, ask you once for confirmation and afterwards runs the installer silently. If a new version gets published, you can update via `winget upgrade --all` or `winget upgrade cantara`.
+
+If you would like to remove Cantara from your system, you can run `winget uninstall cantara`.
+
+### Running the installer
+
+If you don't like to use winget, you can also download and run the installer manually which will lead you through the process of installation.
 
 Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.4.1/cantara-2.4.1_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
 
