@@ -6,6 +6,11 @@ draft: false
 
 # Cantara Liedpräsentation
 
+{{% notice tip %}}
+Hinweis: Die deutsche Version der Internetseite ist zur Zeit nicht aktuell und unvollständig. Um Informationen zu der letzten Version von Cantara zu erhalten, wechseln Sie bitte auf die [englischsprachigen Seiten](../en/).
+Sie können bei der Übersetzung der Internetseite helfen, indem Sie Pull Requests auf das entsprechende [Github Repository](https://github.com/reckel-jm/cantara-webpage) stellen. Vielen Dank für Ihr Verständnis und viel Freude beim Ausprobieren von Cantara!
+{{% /notice %}}
+
 ## Herzlich Willkommen!
 
 Cantara ist eine Liedpräsentationssoftware, die für die Präsentation von Liedern in Kirchen, kleinen Gruppen oder Caraoke-Partys verwendet werden kann. Es unterstützt verschiedene Eingabeformate und kann schöne Präsentationsfolien erstellen oder die Liedtexte in die Zwischenablage kopieren, so dass sie leicht über Chat-Messenger wie Telegram oder WhatsApp geteilt werden können.
