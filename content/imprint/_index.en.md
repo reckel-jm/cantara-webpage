@@ -9,8 +9,8 @@ hidden: true
 This site is run by:
 
 Jan Martin Reckel  
-Ulbrichtstraße 7  
-09126 Chemnitz
+Jollystraße 73
+76137 Karlsruhe
 
 Use GitHub for any software related contact request.
 
@@ -20,7 +20,7 @@ The content of this webpage is provided as it is without any warranty or assuran
 
 ### For this Webpage
 
-This webpage has no contact form or any function implemented which would save or track user data. No analytic tools are used.
+This webpage has no contact form or any function implemented which would save or track user data. No analytic tools are used. The webpage provider does not set any cookies.
 
 The webpage is hosted at GitHub pages with the following address:
 
@@ -46,4 +46,4 @@ If you are using GitHub for pull requests, submitting issues etc., their data pr
 
 ### For the program Cantara
 
-Cantara does not collect or submit any data. The configuration is saved locally on your file system. Cantara does not connect to the internet. It does no tracking.
+Cantara does not collect or submit any data. The configuration is saved locally on your file system. Cantara does not connect to the internet. It doesn't commit or use any sort of tracking.

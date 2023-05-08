@@ -13,7 +13,7 @@ If you find any issues, have ideas or recommendations or want to report a bug, p
 
 ## Translate Cantara to an other language
 
-Currently, Cantara has been only translated to English and German. If you feel that you can add a language, plesae contact me!
+Cantara is used by people all over the world. Over the time, some volunteers contributed translations to several languages. Take a look at the [translation section](translate/) to learn the current state of the art and ways how to support me in this matter.
 
 ## Recommend it
 
