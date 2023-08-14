@@ -42,6 +42,31 @@ During the presentation mode, you can control the presentation slides via severa
 If you are running other programs like Libreoffice Impress or MS PowerPoint in presentation mode at the same time, you can easily switch between the presenters with Alt+Tab. When the presentation mode in Cantara gets started, it will cover the second screen and be in foreground. To move Cantara to the background, press Alt+Tab to navigate to the program you want to show up.
 {{% /notice %}}
 
+## Export Presentation
+
+Cantara offers several ways for exporting presentations so that they can be reused in an other program or for an other purpose. All the export options are available in the *export menu* of the main window. Generally, there are two types of exports:
+
+1. **Export the presentation slides**: This will export the presentation slides exactly as they are displayed inside Cantara. At the moment there are two export options for this type:
+   1. **Power Point Presentation** (.pptx-file): This will export the slide presentation as a pptx file so that it can be used in a presentation program (Microsoft Powerpoint, Libreoffice Impress, Softmaker Presentation etc.). For the generation of the slides, the JavaScript library [PptxGenJs](https://gitbrent.github.io/PptxGenJS/) (MIT license) will be used inside the local web browser as a renderer.
+   2. **Pictures/Images**: This will export a JPEG file for every slide and save it into a folder of choice. 
+2. **Export the Lyrics as Markup**: It will export the lyrics of the songs in their right order in a specified markup format but without any presentation settings (slide breaks, background picture, colors, etc.). This can be used (but is not limited) for:
+   - Exporting the songs as a WhatsApp/Telegram message so that it can be shared a long groups/channels for the congregation/people to sing along
+   - Exporting the songs as a HTML webpage so they can be published on a webpage
+   - Exporting just the titles of the song so they can be reported to CCLI.
+
+The structure of the markup can be specified through a LaTeX style markup language. Go to *Export -> Markup Text* To open the Markup Export window.
+
+![](/images/cantara-markup-export.png)
+
+The template language supports the following commands/environments. All of them are *optional*:
+
+- ```\header { ... }```: The header part of the document which will be shown at the top of the document. No song specific content can be displayed here as this part is outside of the song loop.
+- ```\footer { ... }```: The footer part of the document which will be shown at the bottom of the document. No song specific content can be displayed here as this part is outside of the song loop.
+- ```\newline```: Inserts a system default line break
+- ```\betweensongs { ... }```: Defines what should be displayed between two songs (but not before the first song and after the last song). The default value is set to two line breaks (a new paragraph: ```\betweensongs { \newline \newline }```)
+- ```\lineending```: Specifies the line ending inside the song loop (default value is ```\newline```)
+- ```\songloop { ... }``` The content which will be displayed **for each song** (repeated for each song). Inside this environment, song tags (see [Meta Data](/tutorial/meta-data)) can be accessed via ```\tagname``` – for example ```\title``` for the ```title``` tag and ```\author``` for the ```author``` tag. The lyrics itself a loaded via the ```\lyrics``` command.
+
 ## Save and Load Song Selections
 
 You can save and load song selections into Cantara to share it within the organization or for preparing an event. While doing so, you have two options:
