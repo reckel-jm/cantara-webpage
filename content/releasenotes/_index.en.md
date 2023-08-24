@@ -12,6 +12,21 @@ This page contains information about the changes in different versions (releases
 
 ## Releases
 
+### Version 2.5.0 (2023-08-21) 
+
+- Complete rewriting of large parts of the source code including the internal structures for generating and painting presentation slides
+- Improvement of the presentation layout
+- Improvement of the song editor
+- Implementation of a preview of the presentation in the settings menu
+- Implementation of slide export to pptx (using PptxgenJs)
+- Implementation of slide export to pictures
+- Implementation of song lyrics export to markup text files
+- Implementation of a full text search for browsing song lyrics
+- Implementation of a two language song presentation
+- Improvements of the presentation window and control (more keys and remote controls are supported)
+- Fix [issue #17](https://github.com/reckel-jm/cantara/issues/17) 
+- Cantara can now be directly opened with a ```.songtex```-file.
+
 ### Version 2.4.1 (2023-01-30) Italian and Spanish translation
 
 The version 2.4.1. adds Italian and Spanish translation to Cantara. Despite that, there is no additional functionality compared to Version 2.4.0 which means that if you are not using one of the languages, you don't necessarily need to update to this version.

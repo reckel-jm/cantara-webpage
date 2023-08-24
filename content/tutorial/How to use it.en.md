@@ -42,6 +42,23 @@ During the presentation mode, you can control the presentation slides via severa
 If you are running other programs like Libreoffice Impress or MS PowerPoint in presentation mode at the same time, you can easily switch between the presenters with Alt+Tab. When the presentation mode in Cantara gets started, it will cover the second screen and be in foreground. To move Cantara to the background, press Alt+Tab to navigate to the program you want to show up.
 {{% /notice %}}
 
+## Adjust the Presentation
+
+After you have seen the default presentation style, you might want to adjust it according to your wishes and needs. For this, you can open the settings dialog (Edit -> Settings). There you can set up the following:
+
+![](/images/cantara-settings-en.png)
+
+- **Song Repo Path**: The path of the song repository. Use the button with the three points (..) in order to select a file chooser dialog.
+- **Empty Slides between songs**: This creates an additional empty slide in the presentation *between* two different songs.
+- **Spoil next slides**: Displays the content or parts of of the next slide below the text if the song has an additional slide and the space of the slide is sufficient.
+- **Alignment**: Adjust the horizontal and vertical alignment of the text in the presentation slides. Press **Details** to set up the border size.
+- **Automatic word wrap**: Brakes the slides into if one stanza (song part) has reached the specified limit of lines (recommended especially if you have songs with long stanzas).
+- **Change Font Settings.../Background Color.../Text Color...**: Opens dialogs for specifing the design of the presentation.
+- **Background Image**: Opens a file chooser dialog where you can select a background image for your presentations. If available, the folder with some default background pictures will be opened at first.
+- **Change Image Transparancy**: Adjusts the image transparency **towards** the background color. That means if the background color is (for example) set to black, a higher value will make the picture *darker*. If the background would be white, a higher value will make the picture *brighter*.
+- **Show Meta Data**: Certain Meta data can be shown at a special title slide (if choosen), at the first slide or at the last slide. Enter the syntax in the big edit field at the bottom and see [Meta Data](/tutorial/meta-data) for detalis.
+- **Preview image**: Click at the preview to go one slide forward. If the presentation has reached its end, it will go back to the beginning.
+
 ## Export Presentation
 
 Cantara offers several ways for exporting presentations so that they can be reused in an other program or for an other purpose. All the export options are available in the *export menu* of the main window. Generally, there are two types of exports:
