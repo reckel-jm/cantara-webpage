@@ -28,7 +28,13 @@ If you would like to remove Cantara from your system, you can run `winget uninst
 
 If you don't like to use winget, you can also download and run the installer manually which will lead you through the process of installation.
 
-Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.4.1/cantara-2.4.1_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
+Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.5.0/cantara-v2.5.0_setup_x84_64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
+
+{{% notice info %}}
+When starting the installer, Windows might warn you that the source is unknown and the executable unsigned. In this case, you can choose "Proceed" to continue.
+This is due to the fact that I don't own a certificate which I could use for certification of the executable.
+However as the software has been published to Winget, you can safely install it from there and without seeing this notification.
+{{% /notice %}}
 
 ## Linux
 
@@ -64,26 +70,19 @@ Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
 
 ```bash
-wget https://github.com/reckel-jm/cantara/releases/download/v2.4.1/cantara-2.4.1-1-x86_64.pkg.tar.zst
-sudo pacman -U cantara-2.4.1-1-x86_64.pkg.tar.zst
+wget https://github.com/reckel-jm/cantara/releases/download/v2.5.0/cantara-2.5.0-1-x86_64.pkg.tar.zst
+sudo pacman -U cantara-2.5.0-1-x86_64.pkg.tar.zst
 ```
 
 Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
 
-    sudo pacman -R cantara
+```bash
+sudo pacman -R cantara
+```
 
 ### Ubuntu/Debian based Linux distributions
 
-There is a DEB-Package for 2.3 Beta which works well with Ubuntu. You can [download it here](https://github.com/reckel-jm/cantara/releases/download/v2.2.3beta/cantara-2.2.3beta.deb) and then open it with "Software Installation" or use `dpkg` in the command line:
-
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.3/cantara-2.3.deb
-    sudo dpkg -i cantara-2.3.deb
-
-If you would like to remove Cantara at a later point, you can use `sudo apt-get remove cantara`. In addition to that, you can get Cantara as a [Snap](#snap) via the Ubuntu Software Store.
-
-{{% notice warning %}}
-This is not the latest version at the moment. Please wait till the latest versios been deployed as a Debian package or use snap in the meantime.
-{{% /notice %}}
+Please use [Snap](#snap) or [Flatpak](#flatpakflathub) as described in the concerning sections.
 
 ### Snap
 
@@ -91,7 +90,9 @@ Cantara is available at the Snap Store! The snap package now only takes 4.5 MB a
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/cantara)
 
-    sudo snap install cantara
+```bash
+sudo snap install cantara
+```
 
 {{% notice info %}}
 The way how a Snap application is running is different from a normal package. Therefore there might be some different behavior e.g. a different look of the program. In any case, feel free to report every unexpected behavior so that I can try to fix it.
@@ -109,33 +110,38 @@ Cantara has been packaged as a Flatpak as well and can be installed and updated 
 
 Installing a flatpak from flathub can be done via a graphical software management tool, for example Gnome Software or KDE Discover, or via the command line:
 
-	flatpak install app.cantara.Cantara
+```bash
+flatpak install app.cantara.Cantara
+```
 
 Depending on the flats you have already installed, flatpak might download several houndreds of megabytes for the required KDE/Qt-runtimes. That being said, although the actual Cantara flat is less then 4 MB installing Cantara via flatpak is for sure not the most disk space friendly way.
 
-### Generic Installation of Binaries
+### Generic Run of Binaries
 
-As an other distribution-independant way of using Cantara, you can manually download and install the binaries. Please be aware that Cantara needs the libqt5pas library which is normally resolved by the package dependancy management of your distribution's package manager. However, if you don't use the package manager for installation, you need to install libqt5pas manually. Afterwards, download the Zip-File from the Github Repository, extract it and run `make install`:
+{{% notice warning %}}
+Installing Cantara without using your native package manager or a containerized format (Snap/Flatpak) is strongly discouraged and not recommended. Use this only for locally running Cantara without installation.
+{{% /notice %}}
 
-    wget https://github.com/reckel-jm/cantara/releases/download/v2.4.0/cantara-2.4.0-linux-x86_64_bin.zip
-    tar -zxvf cantara-2.4.0-linux-x86_64_bin.zip
-    sh install.sh
+As an other distribution-independant way of using Cantara, you can manually download and run the binary. Please be aware that Cantara needs the libqt5pas library which is normally resolved by the package dependancy management of your distribution's package manager. However, if you don't use the package manager for installation, you need to install libqt5pas manually. Afterwards, download the Zip-File from the Github Repository, extract it, make the binary executable and run `cantara`:
 
-This will install Cantara globally on your system. You could also run Cantara directly from the dictionary without installing it. If you later want to uninstall a global installed Cantara, run the following commands:
-
-    sudo rm /usr/bin/cantara
-    sudo rm /usr/share/icons/cantara.png
-    sudo xdg-desktop-menu uninstall reckel-cantara.desktop
-    sudo rm /usr/share/locale/en/cantara.mo
+```sh
+wget https://github.com/reckel-jm/cantara/releases/download/v2.5.0/cantara-2.5.0-linux-x86_64_bin.tar.gz
+tar -zxvf cantara-2.5.0-linux-x86_64_bin.tar.gz
+cd cantara-2.5.0-linux-x86_64_bin
+chmod +x cantara
+./cantara
+```
 
 ### Generic Compilation
 
 Install `lazarus` and `lazbuild` from your local repository. If you prefer QT5, you could also install `lazarus-qt` instead of lazarus if the distribution provides a certain package. After you have done that, the compilation is quite easy: Download the source code, extract it and run lazbuild with the appropriate options.
 
-    wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.4.0.tar.gz
-    tar -zxvf v2.4.0.tar.gz
-    cd v2.3
-    make
+```sh
+wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.5.0.tar.gz
+tar -zxvf v2.5.0.tar.gz
+cd v2.5.0
+make
+```
 
 If you prefer GTK2, change the option to `--ws=gtk2` in the makefile. If done with no errors, you will find the executable binary `cantara` in the same folder.
 
