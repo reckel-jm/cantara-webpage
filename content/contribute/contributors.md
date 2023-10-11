@@ -10,5 +10,6 @@ Cantara would not have been possible without the help of the following contribut
 * @[primores-resugendi](https://github.com/primores-resugendi): Contributing traditional Chinese translation
 * @[albanobattistella](https://github.com/albanobattistella): Contributing Italian translation
 * @[haggen88](https://github.com/haggen88): Contributing Spanish translation
+* @[vistaus](https://github.com/Vistaus): Contributing Dutch translation
 
 Thank you very much!
