@@ -6,8 +6,6 @@ draft: false
 chapter: true
 ---
 
-# Cantara
-
 Welcome to this webpage!
 
 Cantara Song is a song presentation software which can be used for presenting songs in churches, small groups or karaoke parties. It supports various input formats and can create beautiful presentation slides or export the presentation to various output formats (pictures, pptx, WhatsApp message and a lot more) so that they can be used for a variety of purposes.

@@ -5,8 +5,6 @@ date: 2022-07-18T22:27:39+02:00
 draft: false
 ---
 
-# Cantara Liedpräsentation
-
 {{% notice tip %}}
 Hinweis: Die deutsche Version der Internetseite ist zur Zeit nicht aktuell und unvollständig. Um Informationen zu der letzten Version von Cantara zu erhalten, wechseln Sie bitte auf die [englischsprachigen Seiten](../en/).
 Sie können bei der Übersetzung der Internetseite helfen, indem Sie Pull Requests auf das entsprechende [Github Repository](https://github.com/reckel-jm/cantara-webpage) stellen. Vielen Dank für Ihr Verständnis und viel Freude beim Ausprobieren von Cantara!
