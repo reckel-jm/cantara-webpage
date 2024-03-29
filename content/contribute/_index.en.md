@@ -21,10 +21,10 @@ The more people use Cantara, the better the program can get! Feel free to recomm
 
 ## Don't donate to me, but to someone else
 
-Although I am still a "poor" student 😃, I am wealthy enough to not need any donations or financial support. However, there are a lot of people in the world who are currently really in need or suffering. If you like Cantara and you find that while using the software you have saved some money, please consider to support one of the non-profit-organisations below which I really appreciate and want to support:
+The author of Cantara has the privilege of holding a full time job and therefore has no need or desire of a financial support at the moment. Therefore, donations for Cantara aren't needed for now. However, there are a lot of people in the world who are currently really in need or suffering. If you like Cantara and you find that while using the software you have saved some money, please consider to support one of the non-profit-organisations below which I really appreciate and want to support:
 
 * [OpenDoors](https://www.opendoors.de/): A Christian organization helping persecuted Christians all over the world.
 * [Missioneswerk Werner Heukelbach](https://www.heukelbach.org/): A missionary organization for sharing the gospel in Germany.
-* [Support Ukraine](https://savelife.in.ua/en/) by donating to NGOs, the Red Cross or the Ukrainian military and help the country to preserve its freedom and existence!
+* [Support Ukraine](https://savelife.in.ua/en/) by donating to NGOs, the Red Cross or other Ukrainian organizations, and help the country and its people to preserve its freedom and existence!
 
 Thank you for your help!
