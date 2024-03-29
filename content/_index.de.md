@@ -1,5 +1,6 @@
 ---
 title: "Cantara Song"
+archetype: "home"
 date: 2022-07-18T22:27:39+02:00
 draft: false
 ---
