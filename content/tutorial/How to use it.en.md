@@ -32,7 +32,8 @@ Cantara will automatically detect at start whether you have connected a second m
 
 During the presentation mode, you can control the presentation slides via several ways:
 
-* Using the arrow keys: You can use the arrow keys of your keyboard to go forward or backward
+* Using the arrow keys: You can use the arrow keys of your keyboard to go forward or backwardF
+* Pressing F5/F11: this will toggle fullscreen
 * Using the Enter or Space key: You can use Enter or Space for moving a slide forward
 * Pressing ESC: will end the presentation
 * Mouse Click: Will move a slide forward

@@ -11,20 +11,20 @@ Starting with Cantara is **very easy** and can be done while following this thre
  2. Collect Songs
  3. Run and configure Cantara
 
-While a detailed explanation with download links can be found in the [Tutorial Section]({{< ref "/tutorial/_index.en.md" >}}), this page just contains some short advises.
+While a detailed explanation with download links can be found in the [Tutorial Section]({{% ref "/tutorial/_index.en.md" %}}), this page just contains some short advises.
 
 ## Download Cantara
 
 There are several download links for different operation systems.
 
-* Go to the [Download and Installation Tutorial Section]({{< ref "/tutorial/Install Cantara.en.md" >}}) for further information.
+* Go to the [Download and Installation Tutorial Section]({{% ref "/tutorial/Install Cantara.en.md" %}}) for further information.
 * Check out the [Releases Page on Github](https://github.com/reckel-jm/cantara/releases) for further options.
 
 ## Collect Songs
 
 Use services like CCLI Song Select or other databases to get lyrics for the songs which you want to sing!
-You don't know where to start? [Take a look here]({{< ref "/tutorial/Where to get the songs.en.md" >}}).
+You don't know where to start? [Take a look here]({{% ref "/tutorial/Where to get the songs.en.md" %}}).
 
 ## Run and configure Cantara
 
-The configuration of Cantara should be self-explanatory for most of the cases. If you need further information, you can head to the [tutorial section]({{< ref "/tutorial/How to use it.en.md" >}}), too.
+The configuration of Cantara should be self-explanatory for most of the cases. If you need further information, you can head to the [tutorial section]({{% ref "/tutorial/How to use it.en.md" %}}), too.
