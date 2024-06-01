@@ -5,8 +5,6 @@ weight = 3
 chapter = true
 +++
 
-# Tutorial
-
 The following pages will give you a detailed instruction to Cantara and how the software works.
 For most users, Cantara should work well out of the box. 
 However, if there are problems or issues which can't be solved, feel also free to go to the [Github repository](https://github.com/reckel-jm/cantara) and ask for additional help.

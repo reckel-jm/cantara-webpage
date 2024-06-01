@@ -1,5 +1,5 @@
 ---
-title: "How to use it"
+title: "General Usage"
 date: 2022-07-19T15:37:14+02:00
 draft: false
 toc: true

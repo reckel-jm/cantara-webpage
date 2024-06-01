@@ -1,9 +1,9 @@
 ---
-title: "Meta Data"
+title: "Song Meta Data"
 date: 2022-08-02T15:37:14+02:00
 draft: false
 toc: true
-weight: 4
+weight: 5
 ---
 
 Cantara allows you to fetch and display meta data from the songs. Depending on the song format, Cantara will get the following meta data.

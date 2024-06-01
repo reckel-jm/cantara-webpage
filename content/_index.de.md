@@ -1,37 +1,29 @@
 ---
-title: "Cantara Song"
+title: "Cantara"
 archetype: "home"
 date: 2022-07-18T22:27:39+02:00
 draft: false
+chapter: true
 ---
 
-{{% notice tip %}}
-Hinweis: Die deutsche Version der Internetseite ist zur Zeit nicht aktuell und unvollständig. Um Informationen zu der letzten Version von Cantara zu erhalten, wechseln Sie bitte auf die [englischsprachigen Seiten](../en/).
-Sie können bei der Übersetzung der Internetseite helfen, indem Sie Pull Requests auf das entsprechende [Github Repository](https://github.com/reckel-jm/cantara-webpage) stellen. Vielen Dank für Ihr Verständnis und viel Freude beim Ausprobieren von Cantara!
-{{% /notice %}}
+Willkommen auf dieser Webseite!
 
-## Herzlich Willkommen!
-
-Cantara ist eine Liedpräsentationssoftware, die für die Präsentation von Liedern in Kirchen, kleinen Gruppen oder Caraoke-Partys verwendet werden kann. Es unterstützt verschiedene Eingabeformate und kann schöne Präsentationsfolien erstellen oder die Liedtexte in die Zwischenablage kopieren, so dass sie leicht über Chat-Messenger wie Telegram oder WhatsApp geteilt werden können.
+Cantara Song ist eine Liedpräsentationssoftware, die zum Präsentieren von Liedern in Kirchen, Kleingruppen oder Karaoke-Partys verwendet werden kann. Sie unterstützt verschiedene Eingabeformate und kann schöne Präsentationsfolien erstellen oder die Präsentation in verschiedene Ausgabeformate (Bilder, pptx, WhatsApp-Nachricht und vieles mehr) exportieren, so dass sie für eine Vielzahl von Zwecken verwendet werden können.
 
 Cantara hat die folgenden Vorteile:
 
-  * **superschnell und leichtgewichtig**: Cantara ist weniger als 10 MB groß und nutzt so weit wie möglich die auf dem lokalen Betriebssystem verfügbaren Komponenten. Es kann auf einem alten Computer, einem Raspberry-Pi und vielen anderen Plattformen laufen.
-  * **Sehr einfach zu bedienen**: Die Erstellung der Präsentationsfolien für eine Veranstaltung dauert nur wenige Sekunden. Die Bedienung ist sehr intuitiv und benutzerfreundlich.
-  * **Gute Integration mit anderer Präsentationssoftware**: Cantara lässt sich problemlos in andere Präsentationssoftware wie LibreOffice Impress, MS Powerpoint oder PdfCP integrieren. Es kann in einen komplexen Ablauf wie einen Gottesdienst eingebunden werden.
-  * **Multi-Screen-Unterstützung**: Multi-Screen wird von Haus aus unterstützt.
+* **Super schnell und leichtgewichtig**: Cantara ist weniger als 10 MB groß und nutzt so weit wie möglich die auf dem lokalen Betriebssystem verfügbaren Komponenten. Es enthält keine Bloatware. Es kann auf einem alten Computer, einem Raspberry-Pi und vielen anderen Geräten ausgeführt werden.
+* **Sehr einfach zu bedienen**: Akzeptiert das gängigste Eingabeformat (CCLI SongSelect Lyrics-Datei) und erstellt die Präsentationsfolien für eine Veranstaltung in nur wenigen Sekunden. Die Bedienung ist sehr intuitiv und benutzerfreundlich.
+* **Gute Integration mit anderer Präsentationssoftware**: Cantara kann Präsentationen im PPTX-Format exportieren und lässt sich daher leicht mit anderer Präsentationssoftware wie LibreOffice Impress oder MS Powerpoint integrieren. Es kann in einen komplexen Workflow wie einen Gottesdienst oder sogar eine Online-Streaming-Veranstaltung über OBS eingebunden werden. Zusätzlich können Sie die Liedtexte in Textformate exportieren und sie in Messenger-Gruppen, als HTML-Seite usw. teilen.
+* **Multi-Screen-Unterstützung**: Multi-Screen wird direkt unterstützt.
+* **Anpassbares Design und gute Optik**: Die Farben und Schriftarten können in den Einstellungen konfiguriert werden. Zusätzlich können Sie ein Hintergrundbild einstellen und dessen Helligkeit anpassen.
 
-## Download
+Die aktuelle Version ist 2.6.0. [Sie können es einfach für Linux, Windows und Mac OS herunterladen und installieren](tutorial/install-cantara). Cantara ist in der Programmiersprache Pascal/Lazarus geschrieben, daher ist es plattformunabhängig und kann für fast jedes Gerät kompiliert werden. Sie können Cantara auch selbst kompilieren. [Finden Sie hier mehr Informationen](tutorial/install-cantara/#generic-compilation).
 
-Die aktuelle Version ist 2.2.1. Cantara ist in der Programmiersprache Pascal/Lazarus geschrieben, daher ist es plattformunabhängig und kann für fast jedes Gerät kompiliert werden. Wenn Sie Cantara selbst kompilieren wollen, können Sie sich den [Quellcode ansehen](https://github.com/reckel-jm/cantara/archive/refs/tags/v2.2.1.zip). Eine ausführliche Anleitung zum Kompilieren finden Sie in der Hilfe-Sektion.
-
-Sie können Cantara zudem einfach auf den folgenden Betriebssystemen installieren:
-
-  * Windows: [Laden Sie den Installer herunter und führen Sie ihn aus](https://github.com/reckel-jm/cantara/releases/download/v2.2.1/cantara2.2.1_setup_win64.exe)
-  * ArchLinux/Manjaro: [Herunterladen und Installieren des tar-zst-Pakets über pacman](https://github.com/reckel-jm/cantara/releases/download/v2.2.1/cantara-2.2-1-x86_64.pkg.tar.zst). Dies kann über `sudo pacman -U cantara-2.2-1-linux-x86_64.pkg.tar.zst` durchgeführt werden. Darüber hinaus können Sie das [AUR](https://aur.archlinux.org/packages/cantara) verwenden.
-
-## Bilder
-
-![Cantara Overview](/images/cantara-overview.jpg?width=900)
+![Cantara Präsentation mit Hintergrund](/images/cantara-presentationcontroller-en.png?width=900)
+![Cantara Vollbild](/images/cantara2.png?width=900)
+![Cantara Anderes Layout](/images/cantara3.png?width=900)
+![Cantara Anderes Layout Vollbild](/images/cantara4.png?width=900)
+![Cantara Übersicht](/images/cantara-overview.jpg?width=900)
 ![Cantara Multiscreen](/images/cantara-multiscreen.jpg?width=900)
-![Cantara Song](/images/cantara-song.jpg?width=900)
+![Cantara Lied](/images/cantara-song.jpg?width=900)

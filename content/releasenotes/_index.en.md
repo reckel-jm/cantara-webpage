@@ -12,6 +12,20 @@ This page contains information about the changes in different versions (releases
 
 ## Releases
 
+### Version 2.6.0 (2024-05-31)
+
+- Migrate to bgrabitmap for better handling and displaying of the presentation slides. In the future, further text effects like shadows etc. can be easily implemented.
+- Redesign the multi screen presentation controller: In addition to the songs, every slide with content is listed and can be selected directly.
+- Context menu of presentation window: Fullscreen and ending of presentation is now also selectable with that menu.
+- Minor improvements of the song editor and full text search.
+- Add "Select all Songs" under File menu in song selection.
+- Bugfix: Wrong display of presentation when no specific font has been selected #24
+- Bugfix: Drag and Drop exception in song selection window
+- Bugfix: Wrong escaping of special characters in pptx-export
+- A lot of minor bugfixes and corrections
+- Translation update
+
+
 ### Version 2.5.0 (2023-08-21) 
 
 - Complete rewriting of large parts of the source code including the internal structures for generating and painting presentation slides

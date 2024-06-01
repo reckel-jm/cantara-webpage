@@ -44,3 +44,49 @@ Since version 2.4.0, Cantara offers a built-in editor which you can use to edit 
 {{% notice warning %}}
 The developers of Cantara are not responsible for copyright issues which come along with the public use and distributions of song lyrics. Make sure that you obtain the rights for using the song lyrics! In Germany, religious gatherings with free admission enjoy higher copyright freedom than commercial events. However, please make sure with your organization that no legal problems arise.
 {{% /notice %}}
+
+## The windows/modes of Cantara
+
+Cantara consists of different windows which allow you to use the program. 
+
+{{< tabs groupid="main" style="primary" title="Windows" icon="window-maximize" >}}
+{{< tab title="Song Selection Window" >}}
+  This windows will be displayed after you start Cantara. It allows you to see the songs which are available and select those which you would like to use in the presentation or to export.
+
+  <img src="/images/cantara-songselection-selected-hints-de.png" loading="lazy" alt="Song Selection Window of Cantara" class="bg-white border lazy noshadow">  
+{{< /tab >}}
+
+{{< tab title="Presentation Window" style="default" >}}
+  The presentation window will show and control the loaded presentation (in single screen mode). It can be set to full screen and moved to an other screen.
+  If you close the presentation window, the presentation will end and you will return to the song selection window.
+
+  <img src="/images/cantara-presentation-de.png" loading="lazy" alt="Song Presentation Window of Cantara" class="bg-white border lazy noshadow">  
+
+{{< /tab >}}
+
+{{< tab title="Presentation Controller" style="default"  >}}
+  In multi screen mode, the presentation controller allows you to control the presentation in detail which is shown at the presentation window. You can see all slides, jump to a slide directly or quit the presentation.
+
+  Normally, you would place the presentation controller on the first screen (the default screen) and the presentation window at the second screen (which is displayed at the beamer, external monitor, etc.).
+
+  <img src="/images/cantara-presentationcontroller-en.png" loading="lazy" alt="Presentation Controller Window of Cantara" class="bg-white border lazy noshadow">  
+
+  {{% notice tip %}}
+  The presentation controller uses the song selection window.
+  {{% /notice %}}
+
+{{< /tab >}}
+
+{{< tab title="Settings" style="default" >}}
+The settings window allows you to adjust the presentation style and change the path of the song repository. You can open the settings in the song selection window.
+
+  <img src="/images/cantara-settings-en.png" loading="lazy" alt="The settings in Cantara" class="bg-white border lazy noshadow"> 
+{{< /tab >}}
+
+{{< tab title="Editor" style="default" >}}
+The editor allows to add, modify, convert and remove songs in your song repository. You can open the editor via Edit -> Song Lyrics... in the song selection window.
+
+<img src="/images/cantara-editor-en.png" loading="lazy" alt="The editor in Cantara" class="bg-white border lazy noshadow">
+{{< /tab >}}
+
+{{< /tabs >}}
