@@ -22,10 +22,16 @@ defaultContentLanguage = "en"
 
 
     [[Languages.en.menu.shortcuts]]
-    name = "<i class='fab fa-github'></i> Github Repository"
-    identifier = "gh"
-    url = "https://github.com/reckel-jm/cantara"
-    weight = 10
+        name = "<i class='fab fa-github'></i> Github Repository"
+        identifier = "gh"
+        url = "https://github.com/reckel-jm/cantara"
+        weight = 10
+
+    [[Languages.en.menu.shortcuts]]
+        name = "<i class='fab fa-twitter'></i> Cantara on X"
+        identifier = "x"
+        url = "https://x.com/cantara_app"
+        weight = 10
 
     [[Languages.en.menu.shortcuts]]
         name = "<i class='fas fa-bookmark'></i> Imprint & Data Privacy"
