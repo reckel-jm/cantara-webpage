@@ -6,6 +6,7 @@ weight: 3
 
 Cantara would not have been possible without the help of the following contributors (GitHub users in alphabetical order):
 
+* @[reckel-jm](https://github.com/reckel-jm): Main development and maintaining
 * @[freundTech](https://github.com/freundTech): helping with preparing the program for flatpak
 * @[primores-resugendi](https://github.com/primores-resugendi): Contributing traditional Chinese translation
 * @[albanobattistella](https://github.com/albanobattistella): Contributing Italian translation
