@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart"
+title: "Schneller Start"
 date: 2022-07-21T11:04:06+02:00
 draft: false
 weight: 2
