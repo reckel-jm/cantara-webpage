@@ -1,0 +1,80 @@
+baseURL = 'https://www.cantara.app'
+title = 'Cantara'
+theme = 'hugo-theme-relearn'
+canonifyurls = true
+
+
+defaultContentLanguage = "en"
+
+[outputs]
+    home = [ "html", "rss", "search"]
+
+[Languages]
+
+    [Languages.en]
+        title = 'Cantara'
+        weight = 1
+        languageName = 'English'
+
+    [Languages.de]
+        title = 'Cantara'
+        weight = 2
+        languageName = 'Deutsch'
+
+
+    [[Languages.en.menu.shortcuts]]
+        name = "<i class='fab fa-github'></i> Github Repository"
+        identifier = "gh"
+        url = "https://github.com/reckel-jm/cantara"
+        weight = 10
+
+    [[Languages.en.menu.shortcuts]]
+        name = "<i class='fab fa-twitter'></i> Cantara on X"
+        identifier = "x"
+        url = "https://x.com/cantara_app"
+        weight = 10
+
+    [[Languages.en.menu.shortcuts]]
+        name = "<i class='fas fa-bookmark'></i> Imprint & Data Privacy"
+        identifier = "imprint"
+        url = "/imprint"
+        weight = 30
+
+    [[Languages.de.menu.shortcuts]]
+        name = "<i class='fab fa-github'></i> Github-Repository"
+        identifier = "gh"
+        url = "https://github.com/reckel-jm/cantara"
+        weight = 10
+
+    [[Languages.de.menu.shortcuts]]
+        name = "<i class='fab fa-twitter'></i> Cantara auf X"
+        identifier = "x"
+        url = "https://x.com/cantara_app"
+        weight = 10
+
+    [[Languages.de.menu.shortcuts]]
+        name = "<i class='fas fa-bookmark'></i> Impressum und Datenschutzerklärung"
+        identifier = "imprint"
+        url = "/imprint"
+        weight = 30
+
+[params]
+# Define words per minute to approximate reading time
+	wpm = 250
+    author.name = "Jan Martin Reckel"
+
+themeVariant = [
+	{ identifier = "zen-auto",      name = "Simple Light/Dark", auto = [ "zen-light", "zen-dark" ] },
+	{ identifier = "zen-light",     name = "Simple Light", auto = []      },
+	{ identifier = "zen-dark",      name = "Simple Dark", auto = []      },
+    { identifier = "relearn-auto",  name = "Relearn Light/Dark", auto = [] },
+	{ identifier = "relearn-light"  },
+	{ identifier = "relearn-dark"   },
+	{ identifier = "relearn-bright" },
+	{ identifier = "retro-auto",    name = "Retro Learn/Neon", auto = [ "learn", "neon" ] },
+	{ identifier = "neon"           },
+	{ identifier = "learn"          },
+	{ identifier = "blue"           },
+	{ identifier = "green"          },
+	{ identifier = "red"            }
+]           
