@@ -6,11 +6,16 @@ draft: false
 chapter: true
 ---
 
-Welcome to this webpage!
-
 {{< center >}} 
-Cantara is a song presentation software which can be used for presenting songs in churches, small groups or karaoke parties. It supports various input formats and can create beautiful presentation slides or export the presentation to various output formats (pictures, pptx, WhatsApp message and a lot more) so that they can be used for a variety of purposes.
+A program for quick, easy but beautiful hymn presenting in churches. 
 {{< /center >}}
+
+Welcome to this webpage!
+Cantara is an open source software which is used for managing and presenting hymns and songs in churches, small groups and more. It supports various input formats and can create beautiful presentation slides or export the presentation to various output formats (pictures, pptx, WhatsApp message and a lot more) so that they can be used for a variety of purposes.
+
+Cantara is **user centered** and works out of the box, like this:
+
+![Cantara Workflow as Gif](/images/cantara.gif?bg_white=true)
 
 Cantara has the following advantages:
 
@@ -21,7 +26,7 @@ Cantara has the following advantages:
 * **Customizable Design and good outlook**: The colors and fonts can be configured in the settings. In addition, you can set up a background picture and adjust it's brightness/transparency. The presentations look beautiful and are easy to read.
 * **Multi language support**: Cantara can present and export song presentations in two different languges at the same time. In addition, it has been translated itself into [a few languages](contribute/translate#current-state) by the community.
 * **Free and Open Source**: No license fees, no dependence on certain companies–Cantara is licensed under the [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) and can be used everywhere and as you want.
-* **Used all over the world and continuously developed**: Although Cantara is still a quite young project, people from many countries are using it. It has been translated to several langauges. In the future, more functions are going to be implemented.
+* **Used all over the world and continuously developed**: Cantara enjoys an international community of users all over the world. It has been translated to several languages. In the future, more functions are going to be implemented.
 
 The current version is 2.6.0. [You can easily download and install it for Linux, Windows and Mac OS](tutorial/install-cantara). Cantara is written with the programming language Pascal/Lazarus, therefore it is platform-independent and can be compiled to almost every device. You can also compile Cantara by yourself. [Find more information here](tutorial/install-cantara/#generic-compilation).
 
