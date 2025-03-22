@@ -6,11 +6,9 @@ hidden: true
 
 ## Imprint
 
-This site is run by:
+This site is run privately by:
 
-Jan Martin Reckel  
-Jollystraße 73
-76137 Karlsruhe
+Jan Martin Reckel
 
 Use GitHub for any software related contact request.
 

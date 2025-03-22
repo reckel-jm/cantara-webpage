@@ -62,6 +62,7 @@ defaultContentLanguage = "en"
 # Define words per minute to approximate reading time
 	wpm = 250
     author.name = "Jan Martin Reckel"
+    hideAuthorDate = true
 
 themeVariant = [
 	{ identifier = "zen-auto",      name = "Simple Light/Dark", auto = [ "zen-light", "zen-dark" ] },

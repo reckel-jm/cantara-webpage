@@ -25,6 +25,5 @@ The author of Cantara has the privilege of holding a full time job and therefore
 
 * [OpenDoors](https://www.opendoors.de/): A Christian organization helping persecuted Christians all over the world.
 * [Missioneswerk Werner Heukelbach](https://www.heukelbach.org/): A missionary organization for sharing the gospel in Germany.
-* [Support Ukraine](https://savelife.in.ua/en/) by donating to NGOs, the Red Cross or other Ukrainian organizations, and help the country and its people to preserve its freedom and existence!
 
 Thank you for your help!
