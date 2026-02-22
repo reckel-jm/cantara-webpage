@@ -20,14 +20,6 @@ var relearn_searchindex = [
     "content": "",
     "description": "",
     "tags": [],
-    "title": "Tutorials",
-    "uri": "/de/tutorial/index.html"
-  },
-  {
-    "breadcrumb": "Cantara",
-    "content": "",
-    "description": "",
-    "tags": [],
     "title": "Kategorien",
     "uri": "/de/categories/index.html"
   },
@@ -38,5 +30,13 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Stichworte",
     "uri": "/de/tags/index.html"
+  },
+  {
+    "breadcrumb": "Cantara",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Tutorials",
+    "uri": "/de/tutorial/index.html"
   }
 ]
