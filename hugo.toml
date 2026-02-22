@@ -63,6 +63,7 @@ defaultContentLanguage = "en"
 	wpm = 250
     author.name = "Jan Martin Reckel"
     hideAuthorDate = true
+    cantaraVersion = "2.7.0"
 
 themeVariant = [
 	{ identifier = "zen-auto",      name = "Simple Light/Dark", auto = [ "zen-light", "zen-dark" ] },

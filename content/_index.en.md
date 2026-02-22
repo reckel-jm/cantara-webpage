@@ -28,7 +28,7 @@ Cantara has the following advantages:
 * **Free and Open Source**: No license fees, no dependence on certain companies–Cantara is licensed under the [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) and can be used everywhere and as you want.
 * **Used all over the world and continuously developed**: Cantara enjoys an international community of users all over the world. It has been translated to several languages. In the future, more functions are going to be implemented.
 
-The current version is 2.6.0. [You can easily download and install it for Linux, Windows and Mac OS](tutorial/install-cantara). Cantara is written with the programming language Pascal/Lazarus, therefore it is platform-independent and can be compiled to almost every device. You can also compile Cantara by yourself. [Find more information here](tutorial/install-cantara/#generic-compilation).
+The current version is {{% param "cantaraVersion" %}}. [You can easily download and install it for Linux, Windows and Mac OS](tutorial/install-cantara). Cantara is written with the programming language Pascal/Lazarus, therefore it is platform-independent and can be compiled to almost every device. You can also compile Cantara by yourself. [Find more information here](tutorial/install-cantara/#generic-compilation).
 
 ![Cantara Running Presentation with Background](/images/cantara-presentationcontroller-en.png?width=900)
 ![Cantara Full Screen](/images/cantara2.png?width=900)

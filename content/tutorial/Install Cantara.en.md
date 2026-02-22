@@ -65,21 +65,6 @@ A big advantage of using a helper like yay is that it will also keep the package
 
 Once installed, Cantara can be uninstalled via pacman: `sudo pacman -R cantara`.
 
-#### Pre-Built Pacman Installation Package
-
-If you don't like to use the AUR, you can also use the pre-built Pacman package from the Github repository. For downloading and installing the package, simply enter the following commands in the command line:
-
-```bash
-wget https://github.com/reckel-jm/cantara/releases/download/v2.6.0/cantara-2.6.0-1-x86_64.pkg.tar.zst
-sudo pacman -U cantara-2.6.0-1-x86_64.pkg.tar.zst
-```
-
-Cantara is now installed and ready for use. If you later would like to uninstall it, you can use Pacman as well:
-
-```bash
-sudo pacman -R cantara
-```
-
 ### Ubuntu/Debian based Linux distributions
 
 Please use [Snap](#snap) or [Flatpak](#flatpakflathub) as described in the concerning sections.
@@ -125,9 +110,9 @@ Installing Cantara without using your native package manager or a containerized 
 As an other distribution-independant way of using Cantara, you can manually download and run the binary. Please be aware that Cantara needs the libqt5pas library which is normally resolved by the package dependancy management of your distribution's package manager. However, if you don't use the package manager for installation, you need to install libqt5pas manually. Afterwards, download the Zip-File from the Github Repository, extract it, make the binary executable and run `cantara`:
 
 ```sh
-wget https://github.com/reckel-jm/cantara/releases/download/v2.6.0/cantara-2.6.0-linux-x86_64_bin.tar.gz
-tar -zxvf cantara-2.6.0-linux-x86_64_bin.tar.gz
-cd cantara-2.6.0-linux-x86_64_bin
+mkdir cantara && cd cantara
+wget https://github.com/reckel-jm/cantara/releases/download/v{{% param "cantaraVersion" %}}/cantara-v{{% param "cantaraVersion" %}}-linux-x64.zip
+unzip cantara-v{{% param "cantaraVersion" %}}-linux-x64.zip
 chmod +x cantara
 ./cantara
 ```
@@ -137,9 +122,9 @@ chmod +x cantara
 Install `lazarus` and `lazbuild` from your local repository. If you prefer QT5, you could also install `lazarus-qt` instead of lazarus if the distribution provides a certain package. After you have done that, the compilation is quite easy: Download the source code, extract it and run lazbuild with the appropriate options.
 
 ```sh
-wget https://github.com/reckel-jm/cantara/archive/refs/tags/v2.6.0.tar.gz
-tar -zxvf v2.6.0.tar.gz
-cd v2.6.0
+wget https://github.com/reckel-jm/cantara/archive/refs/tags/v{{% param "cantaraVersion" %}}.tar.gz
+tar -zxvf v{{% param "cantaraVersion" %}}.tar.gz
+cd v{{% param "cantaraVersion" %}}
 make
 ```
 
@@ -150,8 +135,8 @@ If you prefer GTK2, change the option to `--ws=gtk2` in the makefile. If done wi
 Cantara is working on Mac OS X. However, it has not been officially certified which means that you can not install it in a normal way yet.
 Please follow these steps to use Cantara:
 
-1. Download the [Cantara Mac OS X binary](https://github.com/reckel-jm/cantara/releases/download/v2.6.0/cantara-2.6.0-macosx.zip) from Github.
+1. Download the [Cantara Mac OS X binary](https://github.com/reckel-jm/cantara/releases/download/v{{% param "cantaraVersion" %}}/cantara-v{{% param "cantaraVersion" %}}-macos-x64.zip) from Github.
 2. Open the zip-Archive in Finder so that it will exttract the content to a folder.
-3. Open a terminal and navigate to the Folder, for example with `cd Downloads/cantara-2.6.0-macosx` if you are using the default Download folder.
+3. Open a terminal and navigate to the Folder, for example with `cd Downloads/cantara-{{% param "cantaraVersion" %}}-macos` if you are using the default Download folder.
 4. When you are in the extracted folder, make the binary file executable with `chmod +x src/cantara.app/Contents/cantara`
 5. Run the binary with `./src/cantara.app/Contents/cantara`. Cantara should start now. You can attach it to the dock so that you can open it easily again.
