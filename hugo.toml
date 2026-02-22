@@ -7,7 +7,7 @@ canonifyurls = true
 defaultContentLanguage = "en"
 
 [outputs]
-    home = [ "html", "rss", "search"]
+    home = [ "html", "rss"]
 
 [Languages]
 
