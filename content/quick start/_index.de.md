@@ -17,7 +17,7 @@ Eine detaillierte Erklärung mit Download-Links finden Sie im [Handbuch]({{% ref
 
 Es gibt mehrere Download-Links für verschiedene Betriebssysteme.
 
-* Gehen Sie zum [Download- und Installations-Tutorial-Bereich]({{% ref "/tutorial/Install Cantara.en.md" %}}) für weitere Informationen.
+* Gehen Sie zum [Download- und Installationskapitel im Handbuch]({{% ref "/tutorial/Install Cantara.en.md" %}}) für weitere Informationen.
 * Schauen Sie sich die [Releases-Seite auf Github](https://github.com/reckel-jm/cantara/releases) für weitere Optionen an.
 
 ## Lieder sammeln
@@ -27,4 +27,4 @@ Sie wissen nicht, wo Sie anfangen sollen? [Schauen Sie hier vorbei]({{% ref "/tu
 
 ## Cantara ausführen und konfigurieren
 
-Die Konfiguration von Cantara ist für die meisten Fälle selbsterklärend. Falls Sie weitere Informationen benötigen, können Sie auch den [Tutorial-Bereich]({{% ref "/tutorial/How to use it.en.md" %}}) aufrufen.
+Die Konfiguration von Cantara ist für die meisten Fälle selbsterklärend. Falls Sie weitere Informationen benötigen, können Sie auch das [entsprechende Kapitel im Handbuch]({{% ref "/tutorial/How to use it.en.md" %}}) aufrufen.
