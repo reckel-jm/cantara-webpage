@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>参与贡献 :: Cantara</title><link>https://www.cantara.app/zh/contribute/index.html</link><description>Cantara 是自由软件，以大量的耐心和热情开发而成。如果您喜欢它，如果您能考虑以下事项，我将不胜感激。感谢您使用 Cantara，这对我来说是一种荣幸！
+提供反馈、建议和错误报告 如果您发现任何问题，有想法或建议，或想报告错误，请在 Cantara Github 仓库中开启一个 issue。我完全通过 Github 处理项目事务，所以这是最好的方式。如果您没有 Github 账户且不想创建，请让朋友代劳。
+将 Cantara 翻译成其他语言 Cantara 被世界各地的人们使用。随着时间的推移，一些志愿者贡献了多种语言的翻译。查看翻译部分了解当前状态和支持我的方式。
+推荐给他人 使用 Cantara 的人越多，程序就能变得越好！欢迎通过您可用的渠道推荐 Cantara。
+不要向我捐款，而是捐给其他人 Cantara 的作者拥有全职工作的特权，因此目前不需要也不希望获得财务支持。因此，目前 Cantara 不需要捐款。但是，世界上有很多人目前真正处于困境或痛苦中。如果您喜欢 Cantara，并发现在使用该软件时节省了一些钱，请考虑支持以下我真正欣赏并希望支持的非营利组织：</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 10 Aug 2022 15:11:10 +0200</lastBuildDate><atom:link href="https://www.cantara.app/zh/contribute/index.xml" rel="self" type="application/rss+xml"/><item><title>翻译</title><link>https://www.cantara.app/zh/contribute/translate/index.html</link><pubDate>Wed, 10 Aug 2022 15:11:10 +0200</pubDate><guid>https://www.cantara.app/zh/contribute/translate/index.html</guid><description>Cantara 可以轻松地翻译成其他语言。这样做，您将帮助在全球范围内传播该软件的使用，让不会说英语的人也能访问 Cantara。
+工作原理 Cantara 使用语言文件（*.mo 文件），其中包含二进制语言中的已翻译语言字符串。这些文件可以使用 Poedit 等编辑器和 cantara.pot 文件作为模板来创建。
+如果您想翻译成新语言，请按以下步骤操作：
+下载 cantara.pot 并用适当的编辑器打开它。
+将字符串翻译成所需的目标语言。
+将翻译后的内容导出为 .mo 文件，但也请保留翻译后的 .po 文件！
+将 语言.mo 文件复制到 &lt;cantara目录&gt;/languages/语言/cantara.mo（将 语言 替换为语言的短代码，例如，de 表示德语，en 表示英语，zh 表示中文等）。
+使用 --lang 选项运行 Cantara 测试您的翻译：
+cantara --lang=&lt;语言代码&gt;
+如果翻译运行良好，请在 GitHub 上发起 Pull Request，以便其他人也能使用它。
+当前状态 目前，Cantara 已翻译成以下语言：
+语言 完整度 阿拉伯语 100 % 印度尼西亚语 100 % 英语 100 % 中文（繁体） 100 % 荷兰语 100 % 波斯语 100 % 法语 100 % 德语 100 % 希伯来语 100 % 意大利语 100 % 日语 100 % 韩语 100 % 波兰语 100 % 俄语 100 % 西班牙语 100 % 土耳其语 100 % 乌克兰语 100 % 越南语 100 %</description></item></channel></rss>

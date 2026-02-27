@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 :: Cantara</title><link>https://www.cantara.app/zh/tutorial/index.html</link><description>以下页面将为您提供 Cantara 的详细说明及软件工作原理。 对于大多数用户来说，Cantara 应该开箱即用。 但如果出现无法解决的问题，欢迎前往 Github 仓库寻求额外帮助。
+信息 请注意，本教程适用于 2.5.0 及更高版本。早期版本不支持本节中描述的所有功能。
+阅读以下页面，您将学会 Cantara 的工作原理、如何下载、从哪里获取歌词以及如何使用该程序。
+作者随时欢迎反馈和建议。谢谢！</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Tue, 02 Aug 2022 15:37:14 +0200</lastBuildDate><atom:link href="https://www.cantara.app/zh/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Cantara 的工作原理</title><link>https://www.cantara.app/zh/tutorial/how-cantara-works/index.html</link><pubDate>Tue, 19 Jul 2022 15:37:14 +0200</pubDate><guid>https://www.cantara.app/zh/tutorial/how-cantara-works/index.html</guid><description>背景故事 高中时，我加入了一个基督教青年团契的领导团队。在举办活动时，我们喜欢在开始时唱几首歌。然而问题出现了——现有的歌本数量不足，内容有时也与大家希望唱的歌曲不符。那时我开始寻找可用的歌曲演示软件，但很快就感到失望。大多数现有程序不是商业软件，就是极其复杂，或者对于这个本质上很简单的目的来说过于"大材小用"：人们应该能够（自发地）选择歌曲，程序随后将其显示出来。
+那时，我决定开始开发 Cantara。这个名字来自拉丁语"cantare"（唱歌），但更多是人为选取的而非自然而然。选择这个名字的另一个原因是，同一时期我成了教会的管风琴手——而德语中这个职位的名称是"Kantor"，听起来颇为相似。
+后来我有幸领导了世界上最好的学生团契 😃，在此期间，这个程序慢慢成长并更新了新功能，如多屏支持以及将歌词直接导出到剪贴板的功能，使其可以在没有投影仪的小组中使用。Cantara 的开发将继续，我希望它能成为赞美和敬拜我们伟大天父的小工具！
+方法 graph LR; A[输入文件] --&gt;|收集歌曲| B(歌曲列表) B --&gt; C(歌曲选择) C --&gt; D{生成演示数据} D --&gt; E[直接运行演示] D --&gt; F[以标记格式导出歌词] D --&gt; G[将演示导出为 PPTX] D --&gt; H[将演示导出为图片] Cantara 从文件系统上的一个特定文件夹获取歌曲，该文件夹称为歌曲仓库（简称 song repo）。每首歌曲都是一个简单的文本文件，可以用您选择的任何文本编辑器进行编辑。Cantara 将根据文件名（不含扩展名）识别歌曲标题。例如，如果您有一个这样的文件：
+Amazing Grace.song Cantara 会将其识别为以歌曲格式书写的"Amazing Grace"（关于格式，请参见下一节）。
+提示 歌曲仓库目录可以通过 NextCloud 或 Git 等云服务轻松共享和同步。这样您就可以在您的团队或组织内分发歌曲。</description></item><item><title>安装 Cantara</title><link>https://www.cantara.app/zh/tutorial/install-cantara/index.html</link><pubDate>Tue, 19 Jul 2022 15:37:14 +0200</pubDate><guid>https://www.cantara.app/zh/tutorial/install-cantara/index.html</guid><description>本页介绍如何在您的本地操作系统上安装 Cantara。
+Windows 在 Windows 上安装非常简单，只需一分钟即可完成。您可以使用 Windows 包管理器 Winget 或手动下载并运行安装程序。
+使用 Winget（Windows 10 和 Windows 11） 如果您运行的是现代版本的 Windows（Windows 10 1709 或更高版本），可以使用 Winget 安全地安装 Cantara 并保持更新。只需打开 Windows PowerShell 并运行以下命令：
+winget install cantara Winget 将下载安装程序，询问一次确认，然后静默运行安装程序。当新版本发布时，您可以通过 winget upgrade --all 或 winget upgrade cantara 进行更新。
+如果您想从系统中删除 Cantara，可以运行 winget uninstall cantara。
+运行安装程序 如果您不想使用 Winget，也可以手动下载并运行安装程序，它将引导您完成安装过程。</description></item><item><title>一般用法</title><link>https://www.cantara.app/zh/tutorial/how-to-use-it/index.html</link><pubDate>Tue, 19 Jul 2022 15:37:14 +0200</pubDate><guid>https://www.cantara.app/zh/tutorial/how-to-use-it/index.html</guid><description>初始步骤 安装完成后，只需通过开始菜单或 cantara 命令打开 Cantara。您将看到欢迎助手，它将帮助您完成 Cantara 的配置。 在这里，您应该选择一个歌曲仓库目录，用于存储所有歌词文件。如果还没有，可以创建一个新的空文件夹并将其选为歌曲仓库。助手将建议您添加"Amazing Grace"作为示例歌曲，以帮助您理解程序的工作原理。
+完成欢迎助手后，您还应该根据自己的需求调整字体设置、文字颜色或背景颜色。您可以在设置（编辑 -&gt; 设置）中进行。预览下一张幻灯片选项将在当前部分下方以较小的字体显示下一个歌曲部分的歌词。
+除此之外，您可以配置元数据的显示方式。更多详情请参见元数据部分。
+歌曲选择窗口 配置成功完成后，您将进入歌曲选择窗口，在那里您可以选择想要演唱的歌曲。搜索字段可帮助您找到喜欢的歌曲。只需在左侧列表中选择歌曲后双击或按回车键，歌曲将添加到右侧列表，您可以在那里调整顺序或删除所选歌曲。 完成后，按下演示按钮开始演示。您也可以改为按 CTRL+P。
+提示 Cantara 启动时会自动检测您是否已将第二台显示器（如第二个屏幕或投影仪）连接到电脑。如果是，它将自动选择双窗口模式。您也可以根据需要进行调整。
+演示模式期间 在演示模式下，您可以通过多种方式控制演示幻灯片：</description></item><item><title>管理歌曲</title><link>https://www.cantara.app/zh/tutorial/where-to-get-the-songs/index.html</link><pubDate>Tue, 19 Jul 2022 15:37:14 +0200</pubDate><guid>https://www.cantara.app/zh/tutorial/where-to-get-the-songs/index.html</guid><description>使用 Cantara 时，您需要收集、编辑和分发用于演示或导出的歌曲。第一次启动 Cantara 时，您会注意到——根据您在欢迎助手中的选择——可能只有一首歌曲可用：“Amazing Grace”。从那时起，您就可以开始获取和添加歌曲了。
+您选择作为歌曲仓库的文件夹将包含您在 Cantara 中使用的所有歌曲。这意味着要添加新歌曲，只需在该文件夹中添加新文件即可。编辑或删除歌曲也可以采用类似方法。如果您想与他人共享所有歌曲，只需复制目录中的文件或共享文件夹本身即可。 也有一种常见做法是在仓库文件夹中创建 Git 仓库，然后通过 Github、Gitlab 或其他提供商进行共享。
+了解歌曲的保存方式 Cantara 支持两种不同的歌曲格式。一种文件扩展名为 .song，设计非常简单。它只包含按应呈现顺序排列的歌词，以及描述歌曲元数据的一些标签。另一种格式由 CCLI Songselect 使用，文件扩展名为 .txt 或 .ccli。CCLI 是一个商业数据库，您可以从中下载许多用于教会或基督徒团体的基督教歌曲。
+提示 德国许多基督教教会团体（包括 FeG、SMD 等，据我所知）为会员提供 CCLI Songselect 访问权限。您可以了解您的组织是否已为您订阅。
+Cantara 将自动检测正确的歌曲格式并按以下方式进行解释。
+歌曲文件格式 歌曲文件格式是以 .song 结尾的文件。歌词必须按照应显示的顺序排列，包括重复部分。不同幻灯片用双换行（空行）分隔。例如，如果您想添加歌曲"‘Tis so sweet to trust in Jesus"，请添加一个新文件 'Tis so sweet to trust in Jesus.song，内容如下：</description></item><item><title>歌曲元数据</title><link>https://www.cantara.app/zh/tutorial/meta-data/index.html</link><pubDate>Tue, 02 Aug 2022 15:37:14 +0200</pubDate><guid>https://www.cantara.app/zh/tutorial/meta-data/index.html</guid><description>Cantara 允许您从歌曲中获取并显示元数据。根据歌曲格式，Cantara 将获取以下元数据。
+CCLI Songselect 从每个 CCLI Songselect 歌词文件中将收集以下数据：
+author：所有作者的姓名，以"|“分隔。 ccli-licensenumber：CCLI 许可证编号，取决于用户账户（不取决于歌曲）。 ccli-songnumber：歌曲的 CCLI 编号，取决于歌曲。 歌曲格式 在歌曲格式中，元数据可以通过以 # 开头的行来指定。例如：
+#author: John Newton #title: Amazing Grace Amazing Grace, how sweet the sound that saved a wretch like me. I once wast lost, but now am found, was blind, but now I'm free! [...] 这将为 author 和 title 设置元数据。</description></item></channel></rss>
