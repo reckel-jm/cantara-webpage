@@ -21,6 +21,16 @@ defaultContentLanguage = "en"
         weight = 2
         languageName = 'Deutsch'
 
+    [Languages.zh]
+        title = 'Cantara'
+        weight = 3
+        languageName = '中文'
+
+    [Languages.es]
+        title = 'Cantara'
+        weight = 4
+        languageName = 'Español'
+
 
     [[Languages.en.menu.shortcuts]]
         name = "<i class='fab fa-github'></i> Github Repository"
@@ -54,6 +64,42 @@ defaultContentLanguage = "en"
 
     [[Languages.de.menu.shortcuts]]
         name = "<i class='fas fa-bookmark'></i> Impressum und Datenschutzerklärung"
+        identifier = "imprint"
+        url = "/imprint"
+        weight = 30
+
+    [[Languages.zh.menu.shortcuts]]
+        name = "<i class='fab fa-github'></i> Github 仓库"
+        identifier = "gh"
+        url = "https://github.com/reckel-jm/cantara"
+        weight = 10
+
+    [[Languages.zh.menu.shortcuts]]
+        name = "<i class='fab fa-twitter'></i> Cantara 在 X 上"
+        identifier = "x"
+        url = "https://x.com/cantara_app"
+        weight = 10
+
+    [[Languages.zh.menu.shortcuts]]
+        name = "<i class='fas fa-bookmark'></i> 版权声明与隐私政策"
+        identifier = "imprint"
+        url = "/imprint"
+        weight = 30
+
+    [[Languages.es.menu.shortcuts]]
+        name = "<i class='fab fa-github'></i> Repositorio Github"
+        identifier = "gh"
+        url = "https://github.com/reckel-jm/cantara"
+        weight = 10
+
+    [[Languages.es.menu.shortcuts]]
+        name = "<i class='fab fa-twitter'></i> Cantara en X"
+        identifier = "x"
+        url = "https://x.com/cantara_app"
+        weight = 10
+
+    [[Languages.es.menu.shortcuts]]
+        name = "<i class='fas fa-bookmark'></i> Aviso Legal y Privacidad"
         identifier = "imprint"
         url = "/imprint"
         weight = 30
