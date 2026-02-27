@@ -28,7 +28,7 @@ If you would like to remove Cantara from your system, you can run `winget uninst
 
 If you don't like to use winget, you can also download and run the installer manually which will lead you through the process of installation.
 
-Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v2.6.0/cantara-2.6.0_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
+Simply [download and run the installer](https://github.com/reckel-jm/cantara/releases/download/v{{% param "cantaraVersion" %}}/cantara-{{% param "cantaraVersion" %}}_setup_win64.exe), go through the questions and install Cantara. After the installation, you will find the program in your start menu. In addition, if you have chosen the option during the setup process, you will also have a shortcut on your desktop.
 
 {{% notice info %}}
 When starting the installer, Windows might warn you that the source is unknown and the executable unsigned. In this case, you can choose "Proceed" to continue.
